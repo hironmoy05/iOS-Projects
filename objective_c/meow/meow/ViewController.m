@@ -15,8 +15,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSURL *soundURL = [NSURL fileURLWithPath: [[NSBundle mainBundle] pathForResource:@"Cat" ofType:@"wav"]];
+    AudioServicesCreateSystemSoundID(( __bridge CFURLRef)soundURL, &soundID);
 }
 
 
+- (IBAction)buttonTapped:(id)sender {
+    self.labelView.hidden = NO;
+    
+    AudioServicesPlaySystemSound(soundID);
+    
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(hideLabel) userInfo:nil repeats:NO];
+}
+
+- (void)hideLabel {
+    self.labelView.hidden = YES;
+}
 @end
