@@ -708,11 +708,54 @@ class MyPlayground {
     }
 
     func printAllDivisors(_ num: Int) {
-        for i in 1...num {
+        // Brute force - 0(n)
+//        for i in 1...num {
+        
+//            if num % i == 0 {
+//                print(i)
+//            }
+//        }
+        
+        // optimal approach
+        for i in 1...Int(sqrt(Double(num))) {
             if num % i == 0 {
-                print(i)
+                print(i, terminator: " ")
+                
+                if i != num / i {
+                    print(num / i, terminator: " ")
+                }
             }
         }
+    }
+    
+    func isPrime(_ input: Int) {
+        for i in 2...Int(sqrt(Double(input))) {
+            if input % i == 0 {
+                print("It's not a prime number")
+                return
+            }
+        }
+        print("It's a prime number")
+    }
+    
+    var count = 0
+    func recursion() {
+        if count == 4 {
+            return
+        }
+        
+        print(count, terminator: " ")
+        count += 1
+        recursion()
+    }
+    
+    func printName(_ i: Int, _ n: Int) {
+        if i > n {
+            return
+        }
+        
+        print("Hironmoy Dhar")
+        printName(i + 1, 4)
     }
     
     func strideFunc() {
@@ -728,6 +771,7 @@ class MyPlayground {
         }
     }
 }
+
 
 let arr = [3, 2, 5, -1, 4, 1]
 let arrCount = [4, 2, 6, 5, 3, 1]
@@ -756,6 +800,9 @@ let play = playGround
 //playGround.printPattern14(4)
 //print(playGround.GCDORHCF(8, 16))
 //playGround.isArmstrong(153)
-playGround.printAllDivisors(8)
+//playGround.printAllDivisors(36)
+//playGround.isPrime(7)
+//playGround.recursion()
+playGround.printName(1, 4)
 
 

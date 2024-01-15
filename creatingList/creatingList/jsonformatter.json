@@ -1,0 +1,194 @@
+[
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "72323",
+    "id": 309
+  },
+  {
+    "type": "office",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/repcard/offices/458d710a96afcd40fed48354f403b7ef.png",
+    "items": [
+      {
+        "type": "team",
+        "title": "Team 1",
+        "items": [
+          {
+            "id": 2,
+            "title": "Jitender Thakur",
+            "image": "https://s3-ap-southeast-2.amazonaws.com/repcard/users/dJEID16856188417637.jpg",
+            "type": "user"
+          },
+          {
+            "id": 1151,
+            "title": "M K",
+            "image": "",
+            "type": "user"
+          },
+          {
+            "id": 1448,
+            "title": "Jitender Thakur",
+            "image": "",
+            "type": "user"
+          },
+          {
+            "id": 1499,
+            "title": "Ashish sales Gupta",
+            "image": "",
+            "type": "user"
+          }
+        ],
+        "id": 101
+      },
+      {
+        "type": "team",
+        "title": "1",
+        "items": [
+          {
+            "image": "",
+            "id": 1449,
+            "title": "Jitender Thakur",
+            "type": "user"
+          }
+        ],
+        "id": 390
+      }
+    ],
+    "title": "Corporate Location",
+    "id": 6
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "GGN",
+    "id": 311
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "GGN1",
+    "id": 312
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "Gurugram",
+    "id": 252
+  },
+  {
+    "type": "office",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/repcard/offices/92cd8854cfd1e48180ceaadc9313f114.png",
+    "items": [],
+    "title": "nikmknk",
+    "id": 270
+  },
+  {
+    "type": "office",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/repcard/offices/4970b40dc3f55ef7e7a9f48aa017bea6.png",
+    "items": [
+      {
+        "title": "T11",
+        "id": 48,
+        "type": "team",
+        "items": [
+          {
+            "type": "user",
+            "title": "Ankit pal",
+            "image": "",
+            "id": 1035
+          }
+        ]
+      }
+    ],
+    "title": "Office 1",
+    "id": 160
+  },
+  {
+    "type": "office",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/repcard/offices/359c0e5df6f5fd8b72f6688273cf5ffb.png",
+    "items": [
+      {
+        "type": "team",
+        "title": "T2",
+        "items": [
+          {
+            "image": "https://s3-ap-southeast-2.amazonaws.com/repcard/users/eh99h16119246003119.jpg",
+            "type": "user",
+            "id": 128,
+            "title": "SWAT M"
+          }
+        ],
+        "id": 46
+      }
+    ],
+    "title": "Office 2",
+    "id": 161
+  },
+  {
+    "type": "office",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/repcard/offices/aaea176f8889bbd909524591e5e1c380.png",
+    "items": [],
+    "title": "sdfsadf",
+    "id": 268
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "Singh",
+    "id": 310
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "test",
+    "id": 256
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "test",
+    "id": 257
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "test",
+    "id": 258
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "test",
+    "id": 266
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "test",
+    "id": 267
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "test",
+    "id": 255
+  },
+  {
+    "type": "office",
+    "image": "",
+    "items": [],
+    "title": "this is new",
+    "id": 269
+  }
+]
