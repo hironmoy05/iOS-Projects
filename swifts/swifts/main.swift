@@ -302,7 +302,7 @@ class MyPlayground {
         
         // Swap the pivot
         i += 1
-        let temp = arrC[i]
+        _ = arrC[i]
         arrC[i] = pivot
         arrC[high] = pivot
         
@@ -386,7 +386,7 @@ class MyPlayground {
                 print(j, terminator: " ")
             }
             
-            for j in 0..<(2 * (input - i)) {
+            for _ in 0..<(2 * (input - i)) {
                 print(" ", terminator: " ")
             }
             
@@ -401,7 +401,7 @@ class MyPlayground {
     func printPattern5(_ input: Int) {
         var k = 1
         for i in 1...input {
-            for j in 1...i {
+            for _ in 1...i {
                 print(k, terminator: " ")
                 k += 1
             }
@@ -497,7 +497,7 @@ class MyPlayground {
 //        }
         
 //        or
-        var endChar: Character = "E"
+        let endChar: Character = "E"
         let endValue = UnicodeScalar(String(endChar))!.value
         for i in 0..<input {
             for j in 0...i {
@@ -633,7 +633,7 @@ class MyPlayground {
         // var n = String(input)
         
         // with log10 method
-        var n = Int(round(log10(input) + 1))
+        let n = Int(round(log10(input) + 1))
         print(n)
     }
     
@@ -758,6 +758,189 @@ class MyPlayground {
         printName(i + 1, 4)
     }
     
+    func printNumber(_ i: Int, _ n: Int) {
+        if i > n {
+            return
+        }
+        
+        print(i, terminator: " ")
+        printNumber(i + 1, n)
+    }
+    
+    func printOneToN(_ n: Int) {
+        if n < 1 {
+            return
+        }
+        
+        print(n, terminator: " ")
+        printOneToN(n - 1)
+        
+    }
+    
+    func sumOfNNaturalNumbers(_ n: Int, _ sum: Int) {
+        if n < 1 {
+            print(sum)
+            return
+        }
+        
+        sumOfNNaturalNumbers(n - 1, sum + n)
+    }
+    
+    func factorial(n: Int) {
+        var f = 1
+        for i in 1...n {
+            f *= i
+        }
+        
+        print(f)
+    }
+    
+    func factorial1(i: Int, n: Int) {
+        if n < 1 {
+            print(i)
+            return
+        }
+        
+        factorial1(i: i * n, n: n - 1)
+    }
+    
+    func reverse(_ arr: [Int]) {
+        var arr2 = arr
+        
+        var first = 0
+        var last = arr2.count - 1
+        
+        while first < last {
+            let temp = arr2[first]
+            arr2[first] = arr2[last]
+            arr2[last] = temp
+            
+            first += 1
+            last -= 1
+        }
+        
+        print(arr2)
+    }
+    
+    func reverseWithForLoop(arr: [Int]) {
+        var ans = [Int]()
+        
+        for i in stride(from: arr.count - 1, through: 0, by: -1) {
+            ans.append(arr[i])
+        }
+        
+        print(ans)
+    }
+    
+    func swap(_ first: Int, _ last: Int) -> (Int, Int) {
+        var f = first
+        var l = last
+        let temp = f
+        f = l
+        l = temp
+        
+        return (f, l)
+    }
+    
+    func reverseWithRecursion(_ arr: inout [Int], _ start: Int, _ end: Int) {
+        if start < end {
+            (arr[start], arr[end]) = (arr[end], arr[start])
+            
+            reverseWithRecursion(&arr, start + 1, end - 1)
+        }
+    }
+    
+    // with swap
+    func isStringPallindrome(_ text: inout String) {
+        var textArr = text.split(separator: "")
+        var first = 0
+        var last = textArr.count - 1
+        
+        while(first < last) {
+            (textArr[first], textArr[last]) = (textArr[last], textArr[first])
+            first += 1
+            last -= 1
+        }
+        
+        let newText = textArr.joined()
+        
+        if newText == text {
+            print("This text is a pallindrom")
+        } else {
+            print("This text is not a pallindrome")
+        }
+        
+    }
+    
+    // with two pointers
+    func isStringPallindrome2(_ text: String) -> Bool {
+        var first = text.startIndex
+        var last = text.index(before: text.endIndex)
+        
+        while first < last {
+            if text[first] == text[last] {
+                first = text.index(after: first)
+                last = text.index(before: last)
+            } else {
+                return false
+            }
+        }
+        
+        return true
+    }
+    
+    func fibonacciNumber(_ n: Int) {
+        var arr = [Int]()
+        if n == 0 {
+            print(n)
+        } else {
+            arr.append(0)
+            arr.append(1)
+            
+            for i in 2...n {
+                arr.append(arr[i - 1] + arr[i - 2])
+            }
+        }
+        
+        print(arr)
+    }
+    
+    // space optimized
+    func fibonacciNumber2(_ n: Int) {
+        if n == 0 {
+            print(n)
+            return
+        } else {
+            var secondLast = 0
+            var last = 1
+            print("\(secondLast) \(last)", terminator: " ")
+            
+            var curr: Int
+            for _ in 2...n {
+                curr = secondLast + last
+                print(curr, terminator: " ")
+                
+                secondLast = last
+                last = curr
+            }
+        }
+        print()
+    }
+    
+    // with recursion - This one is wrong
+    func fibonacciNumber3(_ n: Int) -> Int {
+        if n <= 1 {
+            print(n, terminator: " ")
+            return n
+        }
+        
+        let last = fibonacciNumber3(n - 1)
+        let secondLast = fibonacciNumber3(n - 2)
+        
+        print(last + secondLast, terminator: " ")
+        return last + secondLast
+    }
+    
     func strideFunc() {
         let n = 10
         
@@ -782,7 +965,7 @@ let chTarget: Character = "d"
 let target = 4
 
 let playGround = MyPlayground()
-let play = playGround
+//let play = playGround
 //print(playGround === play)
 //let ans = playGround.linearSearch(arr, target)
 //let ans2 = playGround.linearSearchInString(str: name, ch: chTarget)
@@ -803,6 +986,23 @@ let play = playGround
 //playGround.printAllDivisors(36)
 //playGround.isPrime(7)
 //playGround.recursion()
-playGround.printName(1, 4)
+//playGround.printName(1, 4)
+//playGround.sumOfNNaturalNumbers(5, 0)
+//playGround.factorial(n: 5)
+//playGround.factorial1(i: 1, n: 5)
+//playGround.reverse([5, 4, 3, 2, 1])
+//playGround.reverseWithForLoop(arr: [5, 4, 3, 2, 1])
+//var arr4 = [5, 4, 3, 2, 1]
+//print(playGround.reverseWithRecursion(&arr4, 0, arr4.count - 1))
+//print(arr4)
+//var text = "Gaurav"
+//let ans = playGround.isStringPallindrome2(text)
+//if ans == true {
+//    print("It's pallindrome")
+//} else {
+//    print("It's not a pallindrome")
+//}
+print(playGround.fibonacciNumber3(5), terminator: " ")
+print()
 
 
