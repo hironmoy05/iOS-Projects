@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616C4C4E2B6FD77C001E56CF /* SwiftStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */; };
 		617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17F52B6F5E26002AC374 /* SystemIcons.swift */; };
 		617D17FA2B6F6971002AC374 /* SwiftImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17F92B6F6971002AC374 /* SwiftImages.swift */; };
 		617D17FC2B6F702E002AC374 /* SwiftFrameImportant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17FB2B6F702E002AC374 /* SwiftFrameImportant.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStacks.swift; sourceTree = "<group>"; };
 		617D17F52B6F5E26002AC374 /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
 		617D17F92B6F6971002AC374 /* SwiftImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftImages.swift; sourceTree = "<group>"; };
 		617D17FB2B6F702E002AC374 /* SwiftFrameImportant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFrameImportant.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				617D17F92B6F6971002AC374 /* SwiftImages.swift */,
 				617D17FB2B6F702E002AC374 /* SwiftFrameImportant.swift */,
 				61C85E272B6FA0370056BEE5 /* SwiftBackgroundAndOverlay.swift */,
+				616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
 			);
@@ -164,6 +167,7 @@
 				617D17FC2B6F702E002AC374 /* SwiftFrameImportant.swift in Sources */,
 				61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */,
 				617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */,
+				616C4C4E2B6FD77C001E56CF /* SwiftStacks.swift in Sources */,
 				617D3FC62B6E892D00348706 /* Colors.swift in Sources */,
 				61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */,
 				61E619AA2B6E393F008E4BA0 /* Shapes.swift in Sources */,
