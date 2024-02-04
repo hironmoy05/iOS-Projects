@@ -17,8 +17,15 @@ struct Gradient: View {
 //                    colors: [Color.red, Color.blue, Color.green, Color.yellow, Color.purple, Color.orange, Color.gray, Color.white, Color.custom],
 //                    startPoint: .topLeading,
 //                    endPoint: .bottomTrailing)
-//                RadialGradient(colors: [Color.red, Color.blue], center: .center, startRadius: 5, endRadius: 500)
-                AngularGradient(colors: [Color.red, Color.blue], center: .topLeading, angle: .degrees(180 + 45))
+//                RadialGradient(
+//                    colors: [Color("customColor"), Color.blue],
+//                    center: .topLeading,
+//                    startRadius: 5,
+//                    endRadius: 400)
+                AngularGradient(
+                    colors: [Color.red, Color.blue],
+                    center: .topLeading,
+                    angle: .degrees(180 + 45))
             )
             .frame(width: 300, height: 200)
     }

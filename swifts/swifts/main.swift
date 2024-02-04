@@ -1002,7 +1002,8 @@ let playGround = MyPlayground()
 //} else {
 //    print("It's not a pallindrome")
 //}
-print(playGround.fibonacciNumber3(5), terminator: " ")
-print()
+//print(playGround.fibonacciNumber3(5), terminator: " ")
+//print()
+
 
 
