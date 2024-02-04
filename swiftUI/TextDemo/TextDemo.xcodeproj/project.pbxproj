@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17F52B6F5E26002AC374 /* SystemIcons.swift */; };
 		617D17FA2B6F6971002AC374 /* SwiftImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17F92B6F6971002AC374 /* SwiftImages.swift */; };
+		617D17FC2B6F702E002AC374 /* SwiftFrameImportant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17FB2B6F702E002AC374 /* SwiftFrameImportant.swift */; };
 		617D3FC62B6E892D00348706 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D3FC52B6E892D00348706 /* Colors.swift */; };
 		617D3FC82B6E968C00348706 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D3FC72B6E968C00348706 /* Gradient.swift */; };
 		61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		617D17F52B6F5E26002AC374 /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
 		617D17F92B6F6971002AC374 /* SwiftImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftImages.swift; sourceTree = "<group>"; };
+		617D17FB2B6F702E002AC374 /* SwiftFrameImportant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFrameImportant.swift; sourceTree = "<group>"; };
 		617D3FC52B6E892D00348706 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		617D3FC72B6E968C00348706 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		61E619982B6E314F008E4BA0 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				617D3FC72B6E968C00348706 /* Gradient.swift */,
 				617D17F52B6F5E26002AC374 /* SystemIcons.swift */,
 				617D17F92B6F6971002AC374 /* SwiftImages.swift */,
+				617D17FB2B6F702E002AC374 /* SwiftFrameImportant.swift */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				617D3FC82B6E968C00348706 /* Gradient.swift in Sources */,
 				617D17FA2B6F6971002AC374 /* SwiftImages.swift in Sources */,
+				617D17FC2B6F702E002AC374 /* SwiftFrameImportant.swift in Sources */,
 				61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */,
 				617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */,
 				617D3FC62B6E892D00348706 /* Colors.swift in Sources */,
