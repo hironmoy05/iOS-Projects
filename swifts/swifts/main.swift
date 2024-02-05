@@ -953,6 +953,44 @@ class MyPlayground {
             print(i, terminator: " ")
         }
     }
+    
+    
+    
+    
+    // Hashing Integer
+    var hashArr = Array(repeating: 0, count: 13)
+    
+    func hashingAnArr(arr: [Int]) -> [Int] {
+        for n in arr {
+            hashArr[n] += 1
+        }
+        
+        return hashArr
+    }
+    
+    // Hashing Character
+    var hashChar = Array(repeating: 0, count: 256)
+    
+    func hashingAnArrOfChar(arr: [Character]) -> [Int] {
+        for char in arr {
+            if let asciiValue = char.asciiValue {
+                let index = Int(asciiValue)
+                
+                // Ensure the index is within the bounds of the array, if we're only looking for small character because it has 26 length of the arr. So apparently the initializing of an 'hashArr' like this
+//                var hashChar = Array(repeating: 0, count: 26)
+//                if index < hashChar.count {
+//                    hashChar[index] += 1
+//                } else {
+//                    print("Error: ASCII value out of bounds")
+//                }
+                
+                
+                hashChar[index] += 1
+            }
+        }
+        
+        return hashChar
+    }
 }
 
 
@@ -1006,4 +1044,15 @@ let playGround = MyPlayground()
 //print()
 
 
+// Hashing
+let arr1 = [1, 3, 1, 3, 4, 12]
+let hashing = playGround.hashingAnArr(arr: arr1)
 
+print(hashing)
+
+let charArray: [Character] = ["a", "b", "a", "c", "A", "B", "A", "C"]
+let hashingChar = playGround.hashingAnArrOfChar(arr: charArray)
+
+print(hashingChar)
+
+// Note -> We can number hashing til 10^7 at max, if we declare this array global, but if it'll go beyond this like 10^8, 10^9 etc then we can't hash this using arrays That is something we need to solve. And that is where in C++ 'STL' comes in, where we use 'map' or 'unorderd-map' we use. And in JAVA we're use 'Collection', wherer we use 'HashMap'
