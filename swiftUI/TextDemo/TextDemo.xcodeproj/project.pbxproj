@@ -10,6 +10,7 @@
 		61067DC42B71EEED00BBAD73 /* SwiftForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61067DC32B71EEED00BBAD73 /* SwiftForEach.swift */; };
 		61067DC62B71F90000BBAD73 /* SwiftScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61067DC52B71F90000BBAD73 /* SwiftScrollView.swift */; };
 		61067DC82B720E4000BBAD73 /* SwiftLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61067DC72B720E4000BBAD73 /* SwiftLazyVGrid.swift */; };
+		61067DCA2B7226B800BBAD73 /* SwiftSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61067DC92B7226B800BBAD73 /* SwiftSafeArea.swift */; };
 		616C4C4E2B6FD77C001E56CF /* SwiftStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */; };
 		616C4C502B6FFC32001E56CF /* SwiftPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4F2B6FFC32001E56CF /* SwiftPadding.swift */; };
 		617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17F52B6F5E26002AC374 /* SystemIcons.swift */; };
@@ -31,6 +32,7 @@
 		61067DC32B71EEED00BBAD73 /* SwiftForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftForEach.swift; sourceTree = "<group>"; };
 		61067DC52B71F90000BBAD73 /* SwiftScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScrollView.swift; sourceTree = "<group>"; };
 		61067DC72B720E4000BBAD73 /* SwiftLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLazyVGrid.swift; sourceTree = "<group>"; };
+		61067DC92B7226B800BBAD73 /* SwiftSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSafeArea.swift; sourceTree = "<group>"; };
 		616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStacks.swift; sourceTree = "<group>"; };
 		616C4C4F2B6FFC32001E56CF /* SwiftPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPadding.swift; sourceTree = "<group>"; };
 		617D17F52B6F5E26002AC374 /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				61067DC32B71EEED00BBAD73 /* SwiftForEach.swift */,
 				61067DC52B71F90000BBAD73 /* SwiftScrollView.swift */,
 				61067DC72B720E4000BBAD73 /* SwiftLazyVGrid.swift */,
+				61067DC92B7226B800BBAD73 /* SwiftSafeArea.swift */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
 			);
@@ -195,6 +198,7 @@
 				61CB60682B710A8C007D584C /* SwiftInitializers.swift in Sources */,
 				61E619AA2B6E393F008E4BA0 /* Shapes.swift in Sources */,
 				61067DC62B71F90000BBAD73 /* SwiftScrollView.swift in Sources */,
+				61067DCA2B7226B800BBAD73 /* SwiftSafeArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
