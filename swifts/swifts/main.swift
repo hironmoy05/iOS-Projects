@@ -991,6 +991,39 @@ class MyPlayground {
         
         return hashChar
     }
+    
+    func countFrequencyOfElement(arr: [Int]) -> [Int: Int] {
+        var dictionaryArray = [Int: Int]()
+        for n in arr {
+            if var count = dictionaryArray[n] {
+                dictionaryArray[n] = count + 1
+            } else {
+                dictionaryArray[n] = 1
+            }
+        }
+        
+        return dictionaryArray
+    }
+    
+    func higestAndLowestFrequency() {
+        let intArr = [1, 3, 1, 3, 2, 3, 7, 14, 8, 14, 5, 14, 9, 14]
+        let arr = countFrequencyOfElement(arr: intArr)
+        
+        var max = Int.min
+        var min = Int.max
+        
+        for (key, value) in arr {
+            if value < min {
+                min = value
+            }
+            
+            if value > max {
+                max = value
+            }
+        }
+        
+        print("max: \(max) min: \(min)")
+    }
 }
 
 
@@ -1052,7 +1085,8 @@ print(hashing)
 
 let charArray: [Character] = ["a", "b", "a", "c", "A", "B", "A", "C"]
 let hashingChar = playGround.hashingAnArrOfChar(arr: charArray)
-
-print(hashingChar)
+let frequency = playGround.countFrequencyOfElement(arr: arr1)
+playGround.higestAndLowestFrequency()
+print(frequency)
 
 // Note -> We can number hashing til 10^7 at max, if we declare this array global, but if it'll go beyond this like 10^8, 10^9 etc then we can't hash this using arrays That is something we need to solve. And that is where in C++ 'STL' comes in, where we use 'map' or 'unorderd-map' we use. And in JAVA we're use 'Collection', wherer we use 'HashMap'
