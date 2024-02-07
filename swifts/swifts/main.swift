@@ -1009,20 +1009,23 @@ class MyPlayground {
         let intArr = [1, 3, 1, 3, 2, 3, 7, 14, 8, 14, 5, 14, 9, 14]
         let arr = countFrequencyOfElement(arr: intArr)
         
-        var max = Int.min
-        var min = Int.max
+        guard let firstElement = arr.first else { return }
         
-        for (key, value) in arr {
-            if value < min {
-                min = value
+        var maxFrequency = firstElement
+        var minFrequency = firstElement
+        print(maxFrequency, minFrequency)
+        
+        for (_, frequency) in arr {
+            if frequency < minFrequency.value {
+                minFrequency = (key: minFrequency.key, frequency)
             }
             
-            if value > max {
-                max = value
+            if frequency > maxFrequency.value {
+                maxFrequency = (key: maxFrequency.key, frequency)
             }
         }
         
-        print("max: \(max) min: \(min)")
+        print(maxFrequency, minFrequency)
     }
 }
 
@@ -1081,12 +1084,11 @@ let playGround = MyPlayground()
 let arr1 = [1, 3, 1, 3, 4, 12]
 let hashing = playGround.hashingAnArr(arr: arr1)
 
-print(hashing)
+//print(hashing)
 
 let charArray: [Character] = ["a", "b", "a", "c", "A", "B", "A", "C"]
 let hashingChar = playGround.hashingAnArrOfChar(arr: charArray)
 let frequency = playGround.countFrequencyOfElement(arr: arr1)
 playGround.higestAndLowestFrequency()
-print(frequency)
 
-// Note -> We can number hashing til 10^7 at max, if we declare this array global, but if it'll go beyond this like 10^8, 10^9 etc then we can't hash this using arrays That is something we need to solve. And that is where in C++ 'STL' comes in, where we use 'map' or 'unorderd-map' we use. And in JAVA we're use 'Collection', wherer we use 'HashMap'
+// Note -> We can number hashing til 10^10 at max, if we declare this array global, but if it'll go beyond this like 10^11, 10^12 etc then we can't hash this using arrays That is something we need to solve. And that is where in C++ 'STL' comes in, where we use 'map' or 'unorderd-map'. And in JAVA in 'Collection', where we use 'HashMap', and in Swift 'Dictionary'
