@@ -23,6 +23,7 @@
 		61CB60682B710A8C007D584C /* SwiftInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CB60672B710A8C007D584C /* SwiftInitializers.swift */; };
 		61CC0A512B734EF100C4A5FC /* SwiftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A502B734EF100C4A5FC /* SwiftButton.swift */; };
 		61CC0A532B73631600C4A5FC /* SwiftState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A522B73631600C4A5FC /* SwiftState.swift */; };
+		61CC0A552B736FF200C4A5FC /* SwiftExtractedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A542B736FF200C4A5FC /* SwiftExtractedFunctions.swift */; };
 		61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */; };
 		61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199D2B6E314F008E4BA0 /* ContentView.swift */; };
 		61E619A02B6E3150008E4BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E6199F2B6E3150008E4BA0 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		61CB60672B710A8C007D584C /* SwiftInitializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInitializers.swift; sourceTree = "<group>"; };
 		61CC0A502B734EF100C4A5FC /* SwiftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftButton.swift; sourceTree = "<group>"; };
 		61CC0A522B73631600C4A5FC /* SwiftState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftState.swift; sourceTree = "<group>"; };
+		61CC0A542B736FF200C4A5FC /* SwiftExtractedFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtractedFunctions.swift; sourceTree = "<group>"; };
 		61E619982B6E314F008E4BA0 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoApp.swift; sourceTree = "<group>"; };
 		61E6199D2B6E314F008E4BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				61067DC92B7226B800BBAD73 /* SwiftSafeArea.swift */,
 				61CC0A502B734EF100C4A5FC /* SwiftButton.swift */,
 				61CC0A522B73631600C4A5FC /* SwiftState.swift */,
+				61CC0A542B736FF200C4A5FC /* SwiftExtractedFunctions.swift */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
 			);
@@ -202,6 +205,7 @@
 				616C4C4E2B6FD77C001E56CF /* SwiftStacks.swift in Sources */,
 				617D3FC62B6E892D00348706 /* Colors.swift in Sources */,
 				61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */,
+				61CC0A552B736FF200C4A5FC /* SwiftExtractedFunctions.swift in Sources */,
 				61CB60682B710A8C007D584C /* SwiftInitializers.swift in Sources */,
 				61E619AA2B6E393F008E4BA0 /* Shapes.swift in Sources */,
 				61067DC62B71F90000BBAD73 /* SwiftScrollView.swift in Sources */,
