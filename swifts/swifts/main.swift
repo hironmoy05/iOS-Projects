@@ -1005,23 +1005,60 @@ class MyPlayground {
         return dictionaryArray
     }
     
+    // Brute force approach
+    func higestAndLowestFrequency1() {
+        let intArr = [1, 3, 1, 4, 1, 4]
+        var visitedArr = Array(repeating: false, count: intArr.count)
+        var maxEle = 0
+        var maxFreq = 0
+        var minEle = 0
+        var minFreq = Int.max
+        
+        for i in 0..<intArr.count {
+            if visitedArr[i] == true {
+                continue
+            }
+            
+            var count = 0
+            
+            for j in 0..<intArr.count - 1 {
+                if intArr[i] == intArr[j + 1] {
+                    visitedArr[i] = true
+                    count += 1
+                }
+            }
+            
+            if count > maxFreq {
+                maxFreq = count
+                maxEle = intArr[i]
+            }
+            
+            if count < minFreq {
+                minFreq = count
+                minEle = intArr[i]
+            }
+        }
+        
+        print("The higest frequency is \(maxEle) \(maxFreq + 1)")
+        print("The lowest frequency is \(minEle) \(minFreq)")
+    }
+    
     func higestAndLowestFrequency() {
-        let intArr = [1, 3, 1, 3, 2, 3, 7, 14, 8, 14, 5, 14, 9, 14]
+        let intArr = [1, 3, 1, 3, 9, 14, 14, 14, 14]
         let arr = countFrequencyOfElement(arr: intArr)
         
         guard let firstElement = arr.first else { return }
         
         var maxFrequency = firstElement
         var minFrequency = firstElement
-        print(maxFrequency, minFrequency)
         
-        for (_, frequency) in arr {
+        for (key, frequency) in arr {
             if frequency < minFrequency.value {
-                minFrequency = (key: minFrequency.key, frequency)
+                minFrequency = (key, frequency)
             }
             
             if frequency > maxFrequency.value {
-                maxFrequency = (key: maxFrequency.key, frequency)
+                maxFrequency = (key, frequency)
             }
         }
         
@@ -1089,6 +1126,7 @@ let hashing = playGround.hashingAnArr(arr: arr1)
 let charArray: [Character] = ["a", "b", "a", "c", "A", "B", "A", "C"]
 let hashingChar = playGround.hashingAnArrOfChar(arr: charArray)
 let frequency = playGround.countFrequencyOfElement(arr: arr1)
-playGround.higestAndLowestFrequency()
+playGround.higestAndLowestFrequency1()
+//playGround.higestAndLowestFrequency()
 
 // Note -> We can number hashing til 10^10 at max, if we declare this array global, but if it'll go beyond this like 10^11, 10^12 etc then we can't hash this using arrays That is something we need to solve. And that is where in C++ 'STL' comes in, where we use 'map' or 'unorderd-map'. And in JAVA in 'Collection', where we use 'HashMap', and in Swift 'Dictionary'
