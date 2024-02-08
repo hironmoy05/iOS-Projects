@@ -11,7 +11,8 @@ import SwiftUI
 struct TextDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            SwiftSheetAndFullScreenCover()
         }
     }
 }
