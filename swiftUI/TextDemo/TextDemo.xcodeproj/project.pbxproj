@@ -29,6 +29,7 @@
 		61CC0A5B2B73901E00C4A5FC /* SwiftConditionalStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A5A2B73901E00C4A5FC /* SwiftConditionalStatement.swift */; };
 		61CC0A5D2B73998A00C4A5FC /* SwiftAnimationAndWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A5C2B73998A00C4A5FC /* SwiftAnimationAndWithAnimation.swift */; };
 		61CC0A5F2B73AD1C00C4A5FC /* SwiftAnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A5E2B73AD1C00C4A5FC /* SwiftAnimationTiming.swift */; };
+		61CC0A612B73B47200C4A5FC /* SwiftTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A602B73B47200C4A5FC /* SwiftTransition.swift */; };
 		61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */; };
 		61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199D2B6E314F008E4BA0 /* ContentView.swift */; };
 		61E619A02B6E3150008E4BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E6199F2B6E3150008E4BA0 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		61CC0A5A2B73901E00C4A5FC /* SwiftConditionalStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConditionalStatement.swift; sourceTree = "<group>"; };
 		61CC0A5C2B73998A00C4A5FC /* SwiftAnimationAndWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationAndWithAnimation.swift; sourceTree = "<group>"; };
 		61CC0A5E2B73AD1C00C4A5FC /* SwiftAnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationTiming.swift; sourceTree = "<group>"; };
+		61CC0A602B73B47200C4A5FC /* SwiftTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTransition.swift; sourceTree = "<group>"; };
 		61E619982B6E314F008E4BA0 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoApp.swift; sourceTree = "<group>"; };
 		61E6199D2B6E314F008E4BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				61CC0A5A2B73901E00C4A5FC /* SwiftConditionalStatement.swift */,
 				61CC0A5C2B73998A00C4A5FC /* SwiftAnimationAndWithAnimation.swift */,
 				61CC0A5E2B73AD1C00C4A5FC /* SwiftAnimationTiming.swift */,
+				61CC0A602B73B47200C4A5FC /* SwiftTransition.swift */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
 			);
@@ -220,6 +223,7 @@
 				617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */,
 				61CB60662B70FBDC007D584C /* SwiftSpacer.swift in Sources */,
 				61067DC82B720E4000BBAD73 /* SwiftLazyVGrid.swift in Sources */,
+				61CC0A612B73B47200C4A5FC /* SwiftTransition.swift in Sources */,
 				61067DC42B71EEED00BBAD73 /* SwiftForEach.swift in Sources */,
 				616C4C4E2B6FD77C001E56CF /* SwiftStacks.swift in Sources */,
 				617D3FC62B6E892D00348706 /* Colors.swift in Sources */,
