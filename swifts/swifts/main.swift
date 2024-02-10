@@ -1064,16 +1064,56 @@ class MyPlayground {
         
         print(maxFrequency, minFrequency)
     }
+    
+    
+    
+    // Important Sorting Techniques
+    func selectionSort(arr: inout [Int]) {
+        for i in 0..<arr.count {
+            var index = i
+            
+            for j in (i + 1)..<arr.count {
+                if arr[index] > arr[j] {
+                    index = j
+                }
+            }
+            
+            // swap
+            let temp = arr[i]
+            arr[i] = arr[index]
+            arr[index] = temp
+        }
+    }
+    
+    func bubbleSort(arr: inout [Int]) {
+        var isSorted = true
+        for i in stride(from: arr.count - 1, through: 0, by: -1) {
+            for j in 0..<i {
+                if arr[j] > arr[j + 1] {
+                    // swap
+                    let temp = arr[j]
+                    arr[j] = arr[j + 1]
+                    arr[j + 1] = temp
+                    
+                    isSorted = false
+                }
+            }
+            if isSorted {
+                print("It's an sorted array")
+                return
+            }
+        }
+    }
 }
 
 
-let arr = [3, 2, 5, -1, 4, 1]
-let arrCount = [4, 2, 6, 5, 3, 1]
-let arr2D = [[2, 3, 4, 1], [8, 9, 10, 11, 12]]
-let numbers = [12, 5, 342, 0, 5552, -23, 22222, 987583]
-let name = "Hironmoy dhar"
-let chTarget: Character = "d"
-let target = 4
+//let arr = [3, 2, 5, -1, 4, 1]
+//let arrCount = [4, 2, 6, 5, 3, 1]
+//let arr2D = [[2, 3, 4, 1], [8, 9, 10, 11, 12]]
+//let numbers = [12, 5, 342, 0, 5552, -23, 22222, 987583]
+//let name = "Hironmoy dhar"
+//let chTarget: Character = "d"
+//let target = 4
 
 let playGround = MyPlayground()
 //let play = playGround
@@ -1118,15 +1158,23 @@ let playGround = MyPlayground()
 
 
 // Hashing
-let arr1 = [1, 3, 1, 3, 4, 12]
-let hashing = playGround.hashingAnArr(arr: arr1)
+//let arr1 = [1, 3, 1, 3, 4, 12]
+//let hashing = playGround.hashingAnArr(arr: arr1)
 
 //print(hashing)
 
-let charArray: [Character] = ["a", "b", "a", "c", "A", "B", "A", "C"]
-let hashingChar = playGround.hashingAnArrOfChar(arr: charArray)
-let frequency = playGround.countFrequencyOfElement(arr: arr1)
-playGround.higestAndLowestFrequency1()
+//let charArray: [Character] = ["a", "b", "a", "c", "A", "B", "A", "C"]
+//let hashingChar = playGround.hashingAnArrOfChar(arr: charArray)
+//let frequency = playGround.countFrequencyOfElement(arr: arr1)
+//playGround.higestAndLowestFrequency1()
 //playGround.higestAndLowestFrequency()
 
 // Note -> We can number hashing til 10^10 at max, if we declare this array global, but if it'll go beyond this like 10^11, 10^12 etc then we can't hash this using arrays That is something we need to solve. And that is where in C++ 'STL' comes in, where we use 'map' or 'unorderd-map'. And in JAVA in 'Collection', where we use 'HashMap', and in Swift 'Dictionary'
+
+
+// Basics of DSA
+var arr = [4, 1, 5, 3, 2]
+var sortedArr = [1, 2, 3, 4, 5]
+//playGround.selectionSort(arr: &arr)
+//playGround.bubbleSort(arr: &sortedArr)
+//print(sortedArr)
