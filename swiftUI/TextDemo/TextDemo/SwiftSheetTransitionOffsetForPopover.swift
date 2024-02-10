@@ -18,7 +18,7 @@ struct SwiftSheetTransitionOffsetForPopover: View {
             Button(action: {
 //                showView.toggle()
                 
-                withAnimation(Animation.spring) {
+                withAnimation(Animation.bouncy) {
                     showView.toggle()
                 }
             }, label: {
@@ -47,7 +47,7 @@ struct SwiftSheetTransitionOffsetForPopover: View {
             // METHOD 3 - ANIMATION OFFSET
             SecondVC(showView: $showView)
                 .padding(.top, 100)
-                .offset(y: showView ? 0 :UIScreen.main.bounds.height)
+                .offset(y: showView ? 0 : UIScreen.main.bounds.height)
         }
     }
 }
@@ -63,7 +63,9 @@ struct SecondVC: View {
             
             Button(action: {
 //                presentationMode.callAsFunction()
-                showView.toggle()
+                withAnimation {
+                    showView.toggle()
+                }
             }, label: {
                 Image(systemName: "xmark")
                     .padding()
