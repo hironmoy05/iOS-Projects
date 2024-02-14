@@ -52,9 +52,9 @@ struct SwiftAlerts: View {
                     showAlert.toggle()
                 }
             }
-            .alert(isPresented: $showAlert) {
-                getAlert()
-            }
+            .alert(isPresented: $showAlert, content: {
+                    getAlert()
+            })
         }
             
     }
@@ -77,20 +77,16 @@ struct SwiftAlerts: View {
         
         switch alertType {
         case .success:
-            alertTitle = "Successfully uploaded video 🥳"
-            alertMessage = "Your video is now public"
+            return Alert(title: Text("There was a success"), message: nil, dismissButton: .default(Text("ok"), action: {
+                backgroundColor = .green
+            }))
         case .error:
-            alertTitle = "Error uploading video"
-            alertMessage = "The video could not be uploaded"
+            return Alert(title: Text("There was an error."), message: nil, dismissButton: .default(Text("ok"), action: {
+                backgroundColor = .yellow
+            }))
         case nil:
-            alertTitle = "Error"
+            return Alert(title: Text("Error"))
         }
-        
-        return Alert(
-            title: Text(alertTitle),
-            message: Text(alertMessage),
-            dismissButton: .default(Text("Ok"))
-        )
     }
 }
 
