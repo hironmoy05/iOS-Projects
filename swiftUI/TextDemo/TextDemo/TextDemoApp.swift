@@ -12,7 +12,8 @@ struct TextDemoApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            SwiftSheetAndFullScreenCover()
+//            SwiftSheetAndFullScreenCover()
+            SwiftAlerts()
         }
     }
 }
