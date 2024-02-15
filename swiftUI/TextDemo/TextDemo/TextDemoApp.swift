@@ -13,7 +13,8 @@ struct TextDemoApp: App {
         WindowGroup {
 //            ContentView()
 //            SwiftSheetAndFullScreenCover()
-            SwiftAlerts()
+//            SwiftAlerts()
+            SwiftBackgroundAndOverlay()
         }
     }
 }
