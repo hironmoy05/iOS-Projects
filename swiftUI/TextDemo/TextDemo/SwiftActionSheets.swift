@@ -16,6 +16,7 @@ enum ConfirmationDialogOptions {
 
 struct SwiftActionSheets: View {
     @State var showConfirmationDialog: Bool = false
+    @State var openMenuOptions: Bool = false
     
     @State var confirmationDialogOptions: ConfirmationDialogOptions = .isOtherPost
     
@@ -78,6 +79,8 @@ struct SwiftActionSheets: View {
                         
                     }
                 }
+                
+                Button("Cancel", role: .cancel) { openMenuOptions = false }
             }
     }
 }

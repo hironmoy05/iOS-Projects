@@ -14,7 +14,8 @@ struct TextDemoApp: App {
 //            ContentView()
 //            SwiftSheetAndFullScreenCover()
 //            SwiftAlerts()
-            SwiftBackgroundAndOverlay()
+//            SwiftBackgroundAndOverlay()
+//            SwiftTenorGif()
         }
     }
 }
