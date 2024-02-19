@@ -17,6 +17,7 @@
 		614F6E782B83904C009D5B47 /* SwiftColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E772B83904C009D5B47 /* SwiftColorPicker.swift */; };
 		614F6E7A2B839478009D5B47 /* SwiftDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E792B839478009D5B47 /* SwiftDatePicker.swift */; };
 		614F6E7C2B839B70009D5B47 /* SwiftStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E7B2B839B70009D5B47 /* SwiftStepper.swift */; };
+		614F6E7E2B83A7AD009D5B47 /* SwiftSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E7D2B83A7AD009D5B47 /* SwiftSlider.swift */; };
 		6152D5542B7D3ACB0033135B /* SwiftActionSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6152D5532B7D3ACB0033135B /* SwiftActionSheets.swift */; };
 		616C4C4E2B6FD77C001E56CF /* SwiftStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */; };
 		616C4C502B6FFC32001E56CF /* SwiftPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4F2B6FFC32001E56CF /* SwiftPadding.swift */; };
@@ -64,6 +65,7 @@
 		614F6E772B83904C009D5B47 /* SwiftColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftColorPicker.swift; sourceTree = "<group>"; };
 		614F6E792B839478009D5B47 /* SwiftDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDatePicker.swift; sourceTree = "<group>"; };
 		614F6E7B2B839B70009D5B47 /* SwiftStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStepper.swift; sourceTree = "<group>"; };
+		614F6E7D2B83A7AD009D5B47 /* SwiftSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSlider.swift; sourceTree = "<group>"; };
 		6152D5532B7D3ACB0033135B /* SwiftActionSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftActionSheets.swift; sourceTree = "<group>"; };
 		616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStacks.swift; sourceTree = "<group>"; };
 		616C4C4F2B6FFC32001E56CF /* SwiftPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPadding.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				614F6E772B83904C009D5B47 /* SwiftColorPicker.swift */,
 				614F6E792B839478009D5B47 /* SwiftDatePicker.swift */,
 				614F6E7B2B839B70009D5B47 /* SwiftStepper.swift */,
+				614F6E7D2B83A7AD009D5B47 /* SwiftSlider.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -298,6 +301,7 @@
 				61CC0A552B736FF200C4A5FC /* SwiftExtractedFunctions.swift in Sources */,
 				61CC0A572B7384EF00C4A5FC /* SwiftExtractSubViews.swift in Sources */,
 				61CB60682B710A8C007D584C /* SwiftInitializers.swift in Sources */,
+				614F6E7E2B83A7AD009D5B47 /* SwiftSlider.swift in Sources */,
 				618063C42B834A280086D9A9 /* SwiftPicker.swift in Sources */,
 				61E619AA2B6E393F008E4BA0 /* Shapes.swift in Sources */,
 				6199BC4C2B7F47E600912984 /* SwiftTenorGifModel.swift in Sources */,
