@@ -17,8 +17,8 @@ struct SwiftTenorGif: View {
 //                .onAppear {
 //                    viewModel.fetchFeaturedGIF()
 //                }
-            if let item = viewModel.gif {
-//                WebView(url: )
+            if !viewModel.gif.isEmpty {
+                WebView(url: (URL(string: viewModel.gif[0].imageURL) ?? URL(string: "")!))
             } else {
                 ProgressView()
                     .onAppear {
