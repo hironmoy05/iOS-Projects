@@ -20,6 +20,7 @@
 		614F6E7E2B83A7AD009D5B47 /* SwiftSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E7D2B83A7AD009D5B47 /* SwiftSlider.swift */; };
 		6152D5542B7D3ACB0033135B /* SwiftActionSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6152D5532B7D3ACB0033135B /* SwiftActionSheets.swift */; };
 		616417C22B84730700CFC0ED /* SwiftTabViewAndPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616417C12B84730700CFC0ED /* SwiftTabViewAndPageTabViewStyle.swift */; };
+		616417C42B84867400CFC0ED /* SwiftAdaptingDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616417C32B84867400CFC0ED /* SwiftAdaptingDarkMode.swift */; };
 		616C4C4E2B6FD77C001E56CF /* SwiftStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */; };
 		616C4C502B6FFC32001E56CF /* SwiftPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4F2B6FFC32001E56CF /* SwiftPadding.swift */; };
 		617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17F52B6F5E26002AC374 /* SystemIcons.swift */; };
@@ -69,6 +70,7 @@
 		614F6E7D2B83A7AD009D5B47 /* SwiftSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSlider.swift; sourceTree = "<group>"; };
 		6152D5532B7D3ACB0033135B /* SwiftActionSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftActionSheets.swift; sourceTree = "<group>"; };
 		616417C12B84730700CFC0ED /* SwiftTabViewAndPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTabViewAndPageTabViewStyle.swift; sourceTree = "<group>"; };
+		616417C32B84867400CFC0ED /* SwiftAdaptingDarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAdaptingDarkMode.swift; sourceTree = "<group>"; };
 		616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStacks.swift; sourceTree = "<group>"; };
 		616C4C4F2B6FFC32001E56CF /* SwiftPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPadding.swift; sourceTree = "<group>"; };
 		617D17F52B6F5E26002AC374 /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				614F6E7B2B839B70009D5B47 /* SwiftStepper.swift */,
 				614F6E7D2B83A7AD009D5B47 /* SwiftSlider.swift */,
 				616417C12B84730700CFC0ED /* SwiftTabViewAndPageTabViewStyle.swift */,
+				616417C32B84867400CFC0ED /* SwiftAdaptingDarkMode.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -302,6 +305,7 @@
 				61B54F132B7DE8630088A3EE /* SwiftContextMenu.swift in Sources */,
 				61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */,
 				618063C22B83463A0086D9A9 /* SwiftToggle.swift in Sources */,
+				616417C42B84867400CFC0ED /* SwiftAdaptingDarkMode.swift in Sources */,
 				61CC0A552B736FF200C4A5FC /* SwiftExtractedFunctions.swift in Sources */,
 				61CC0A572B7384EF00C4A5FC /* SwiftExtractSubViews.swift in Sources */,
 				61CB60682B710A8C007D584C /* SwiftInitializers.swift in Sources */,
