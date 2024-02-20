@@ -34,7 +34,7 @@ struct SwiftOnAppearAndDisappear: View {
             .onDisappear(perform: {
                 myText = "Ending Text"
             })
-            .navigationTitle("On Appear \(count)") 
+            .navigationTitle("On Appear \(count)")
         }
     }
 }
