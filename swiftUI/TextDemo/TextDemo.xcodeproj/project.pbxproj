@@ -24,6 +24,7 @@
 		616417C62B84927B00CFC0ED /* SwiftOnAppearAndDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616417C52B84927B00CFC0ED /* SwiftOnAppearAndDisappear.swift */; };
 		616417C82B84979900CFC0ED /* SwiftIfLetAndGuardStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616417C72B84979900CFC0ED /* SwiftIfLetAndGuardStatement.swift */; };
 		616417CA2B84AF4E00CFC0ED /* SwiftOnTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616417C92B84AF4E00CFC0ED /* SwiftOnTapGesture.swift */; };
+		616417CC2B84B19600CFC0ED /* SwiftCustomDataTypes(Structs).swift in Sources */ = {isa = PBXBuildFile; fileRef = 616417CB2B84B19600CFC0ED /* SwiftCustomDataTypes(Structs).swift */; };
 		616C4C4E2B6FD77C001E56CF /* SwiftStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */; };
 		616C4C502B6FFC32001E56CF /* SwiftPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C4C4F2B6FFC32001E56CF /* SwiftPadding.swift */; };
 		617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D17F52B6F5E26002AC374 /* SystemIcons.swift */; };
@@ -77,6 +78,7 @@
 		616417C52B84927B00CFC0ED /* SwiftOnAppearAndDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOnAppearAndDisappear.swift; sourceTree = "<group>"; };
 		616417C72B84979900CFC0ED /* SwiftIfLetAndGuardStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIfLetAndGuardStatement.swift; sourceTree = "<group>"; };
 		616417C92B84AF4E00CFC0ED /* SwiftOnTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOnTapGesture.swift; sourceTree = "<group>"; };
+		616417CB2B84B19600CFC0ED /* SwiftCustomDataTypes(Structs).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftCustomDataTypes(Structs).swift"; sourceTree = "<group>"; };
 		616C4C4D2B6FD77C001E56CF /* SwiftStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStacks.swift; sourceTree = "<group>"; };
 		616C4C4F2B6FFC32001E56CF /* SwiftPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPadding.swift; sourceTree = "<group>"; };
 		617D17F52B6F5E26002AC374 /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				616417C52B84927B00CFC0ED /* SwiftOnAppearAndDisappear.swift */,
 				616417C72B84979900CFC0ED /* SwiftIfLetAndGuardStatement.swift */,
 				616417C92B84AF4E00CFC0ED /* SwiftOnTapGesture.swift */,
+				616417CB2B84B19600CFC0ED /* SwiftCustomDataTypes(Structs).swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -326,6 +329,7 @@
 				61E619AA2B6E393F008E4BA0 /* Shapes.swift in Sources */,
 				6199BC4C2B7F47E600912984 /* SwiftTenorGifModel.swift in Sources */,
 				618063C02B833F560086D9A9 /* SwiftTextEditor.swift in Sources */,
+				616417CC2B84B19600CFC0ED /* SwiftCustomDataTypes(Structs).swift in Sources */,
 				614F6E782B83904C009D5B47 /* SwiftColorPicker.swift in Sources */,
 				61067DC62B71F90000BBAD73 /* SwiftScrollView.swift in Sources */,
 				61067DCA2B7226B800BBAD73 /* SwiftSafeArea.swift in Sources */,
