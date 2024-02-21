@@ -16,7 +16,8 @@ struct TextDemoApp: App {
 //            SwiftAlerts()
 //            SwiftBackgroundAndOverlay()
 //            SwiftTenorGif()
-            SwiftAppStorage()
+//            SwiftAppStorage()
+            IntroView()
         }
     }
 }

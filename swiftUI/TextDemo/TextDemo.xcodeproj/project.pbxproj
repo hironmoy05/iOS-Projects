@@ -18,6 +18,7 @@
 		614F6E7A2B839478009D5B47 /* SwiftDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E792B839478009D5B47 /* SwiftDatePicker.swift */; };
 		614F6E7C2B839B70009D5B47 /* SwiftStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E7B2B839B70009D5B47 /* SwiftStepper.swift */; };
 		614F6E7E2B83A7AD009D5B47 /* SwiftSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E7D2B83A7AD009D5B47 /* SwiftSlider.swift */; };
+		615299292B86897500D8C32E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615299282B86897500D8C32E /* ProfileView.swift */; };
 		6152D5542B7D3ACB0033135B /* SwiftActionSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6152D5532B7D3ACB0033135B /* SwiftActionSheets.swift */; };
 		616417C22B84730700CFC0ED /* SwiftTabViewAndPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616417C12B84730700CFC0ED /* SwiftTabViewAndPageTabViewStyle.swift */; };
 		616417C42B84867400CFC0ED /* SwiftAdaptingDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616417C32B84867400CFC0ED /* SwiftAdaptingDarkMode.swift */; };
@@ -54,6 +55,8 @@
 		61CC0A5F2B73AD1C00C4A5FC /* SwiftAnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A5E2B73AD1C00C4A5FC /* SwiftAnimationTiming.swift */; };
 		61CC0A612B73B47200C4A5FC /* SwiftTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC0A602B73B47200C4A5FC /* SwiftTransition.swift */; };
 		61D673D72B85C6ED00F81F83 /* SwiftAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D673D62B85C6ED00F81F83 /* SwiftAppStorage.swift */; };
+		61D673D92B86081300F81F83 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D673D82B86081300F81F83 /* IntroView.swift */; };
+		61D673DC2B860A9200F81F83 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D673DB2B860A9200F81F83 /* OnboardingView.swift */; };
 		61E453012B74B6440065D356 /* SwiftSheetAndFullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E453002B74B6440065D356 /* SwiftSheetAndFullScreenCover.swift */; };
 		61E453032B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E453022B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift */; };
 		61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */; };
@@ -75,6 +78,7 @@
 		614F6E792B839478009D5B47 /* SwiftDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDatePicker.swift; sourceTree = "<group>"; };
 		614F6E7B2B839B70009D5B47 /* SwiftStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStepper.swift; sourceTree = "<group>"; };
 		614F6E7D2B83A7AD009D5B47 /* SwiftSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSlider.swift; sourceTree = "<group>"; };
+		615299282B86897500D8C32E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6152D5532B7D3ACB0033135B /* SwiftActionSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftActionSheets.swift; sourceTree = "<group>"; };
 		616417C12B84730700CFC0ED /* SwiftTabViewAndPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTabViewAndPageTabViewStyle.swift; sourceTree = "<group>"; };
 		616417C32B84867400CFC0ED /* SwiftAdaptingDarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAdaptingDarkMode.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 		61CC0A5E2B73AD1C00C4A5FC /* SwiftAnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationTiming.swift; sourceTree = "<group>"; };
 		61CC0A602B73B47200C4A5FC /* SwiftTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTransition.swift; sourceTree = "<group>"; };
 		61D673D62B85C6ED00F81F83 /* SwiftAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppStorage.swift; sourceTree = "<group>"; };
+		61D673D82B86081300F81F83 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		61D673DB2B860A9200F81F83 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		61E453002B74B6440065D356 /* SwiftSheetAndFullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSheetAndFullScreenCover.swift; sourceTree = "<group>"; };
 		61E453022B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSheetTransitionOffsetForPopover.swift; sourceTree = "<group>"; };
 		61E619982B6E314F008E4BA0 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +145,16 @@
 				6199BC4B2B7F47E600912984 /* SwiftTenorGifModel.swift */,
 			);
 			path = SwiftTenorGif;
+			sourceTree = "<group>";
+		};
+		61D673DA2B86092D00F81F83 /* SwiftUserOnboarding@AppStorageAndTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				61D673D82B86081300F81F83 /* IntroView.swift */,
+				61D673DB2B860A9200F81F83 /* OnboardingView.swift */,
+				615299282B86897500D8C32E /* ProfileView.swift */,
+			);
+			path = "SwiftUserOnboarding@AppStorageAndTransitions";
 			sourceTree = "<group>";
 		};
 		61E6198F2B6E314F008E4BA0 = {
@@ -210,6 +226,7 @@
 				616417CD2B84B71200CFC0ED /* SwiftStateObjectAndObservableObject.swift */,
 				616417CF2B84CD3C00CFC0ED /* SwiftEnvironmentObject.swift */,
 				61D673D62B85C6ED00F81F83 /* SwiftAppStorage.swift */,
+				61D673DA2B86092D00F81F83 /* SwiftUserOnboarding@AppStorageAndTransitions */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -319,6 +336,7 @@
 				61E453032B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift in Sources */,
 				616417C62B84927B00CFC0ED /* SwiftOnAppearAndDisappear.swift in Sources */,
 				61CC0A592B738BE400C4A5FC /* SwiftBinding.swift in Sources */,
+				61D673D92B86081300F81F83 /* IntroView.swift in Sources */,
 				617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */,
 				61CB60662B70FBDC007D584C /* SwiftSpacer.swift in Sources */,
 				61067DC82B720E4000BBAD73 /* SwiftLazyVGrid.swift in Sources */,
@@ -333,8 +351,10 @@
 				618063C22B83463A0086D9A9 /* SwiftToggle.swift in Sources */,
 				616417C42B84867400CFC0ED /* SwiftAdaptingDarkMode.swift in Sources */,
 				61CC0A552B736FF200C4A5FC /* SwiftExtractedFunctions.swift in Sources */,
+				61D673DC2B860A9200F81F83 /* OnboardingView.swift in Sources */,
 				61CC0A572B7384EF00C4A5FC /* SwiftExtractSubViews.swift in Sources */,
 				616417D02B84CD3C00CFC0ED /* SwiftEnvironmentObject.swift in Sources */,
+				615299292B86897500D8C32E /* ProfileView.swift in Sources */,
 				61CB60682B710A8C007D584C /* SwiftInitializers.swift in Sources */,
 				614F6E7E2B83A7AD009D5B47 /* SwiftSlider.swift in Sources */,
 				618063C42B834A280086D9A9 /* SwiftPicker.swift in Sources */,
