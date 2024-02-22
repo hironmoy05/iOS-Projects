@@ -14,6 +14,7 @@
 		612CDDEA2B7550C200468577 /* SwiftNavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612CDDE92B7550C200468577 /* SwiftNavigationViewAndLink.swift */; };
 		614196542B86DD8E00A479A2 /* SwiftAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */; };
 		614196562B86E72C00A479A2 /* SwiftBackgroundMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */; };
+		614196582B86ED3A00A479A2 /* SwiftTextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196572B86ED3A00A479A2 /* SwiftTextSelection.swift */; };
 		614B55982B78A8D200BDA15B /* SwiftLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B55972B78A8D200BDA15B /* SwiftLists.swift */; };
 		614B559A2B7908BA00BDA15B /* SwiftAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B55992B7908BA00BDA15B /* SwiftAlerts.swift */; };
 		614F6E782B83904C009D5B47 /* SwiftColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E772B83904C009D5B47 /* SwiftColorPicker.swift */; };
@@ -76,6 +77,7 @@
 		612CDDE92B7550C200468577 /* SwiftNavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNavigationViewAndLink.swift; sourceTree = "<group>"; };
 		614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAsyncImage.swift; sourceTree = "<group>"; };
 		614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBackgroundMaterials.swift; sourceTree = "<group>"; };
+		614196572B86ED3A00A479A2 /* SwiftTextSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTextSelection.swift; sourceTree = "<group>"; };
 		614B55972B78A8D200BDA15B /* SwiftLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLists.swift; sourceTree = "<group>"; };
 		614B55992B7908BA00BDA15B /* SwiftAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlerts.swift; sourceTree = "<group>"; };
 		614F6E772B83904C009D5B47 /* SwiftColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftColorPicker.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				61D673DA2B86092D00F81F83 /* SwiftUserOnboarding@AppStorageAndTransitions */,
 				614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */,
 				614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */,
+				614196572B86ED3A00A479A2 /* SwiftTextSelection.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -341,6 +344,7 @@
 				61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */,
 				612CDDEA2B7550C200468577 /* SwiftNavigationViewAndLink.swift in Sources */,
 				61E453032B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift in Sources */,
+				614196582B86ED3A00A479A2 /* SwiftTextSelection.swift in Sources */,
 				616417C62B84927B00CFC0ED /* SwiftOnAppearAndDisappear.swift in Sources */,
 				61CC0A592B738BE400C4A5FC /* SwiftBinding.swift in Sources */,
 				61D673D92B86081300F81F83 /* IntroView.swift in Sources */,
