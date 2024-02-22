@@ -19,7 +19,8 @@ struct TextDemoApp: App {
 //            SwiftAppStorage()
 //            IntroView()
 //            SwiftFocusState()
-            SwiftCustomiseKeyboardSubmit()
+//            SwiftCustomiseKeyboardSubmit()
+            SwiftNavigationStack()
         }
     }
 }
