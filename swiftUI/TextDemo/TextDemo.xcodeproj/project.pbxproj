@@ -14,6 +14,8 @@
 		610AC0462B8720A3000382AA /* SwiftSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */; };
 		610AC0482B872431000382AA /* SwiftBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC0472B872431000382AA /* SwiftBadge.swift */; };
 		610AC04A2B872616000382AA /* SwiftFocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC0492B872616000382AA /* SwiftFocusState.swift */; };
+		610AC04C2B873974000382AA /* SwiftOnSubmitAndSubmitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC04B2B873974000382AA /* SwiftOnSubmitAndSubmitLabel.swift */; };
+		610AC04E2B87403E000382AA /* SwiftCustomiseKeyboardSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC04D2B87403E000382AA /* SwiftCustomiseKeyboardSubmit.swift */; };
 		612CDDEA2B7550C200468577 /* SwiftNavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612CDDE92B7550C200468577 /* SwiftNavigationViewAndLink.swift */; };
 		614196542B86DD8E00A479A2 /* SwiftAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */; };
 		614196562B86E72C00A479A2 /* SwiftBackgroundMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */; };
@@ -81,6 +83,8 @@
 		610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSwipeActions.swift; sourceTree = "<group>"; };
 		610AC0472B872431000382AA /* SwiftBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBadge.swift; sourceTree = "<group>"; };
 		610AC0492B872616000382AA /* SwiftFocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFocusState.swift; sourceTree = "<group>"; };
+		610AC04B2B873974000382AA /* SwiftOnSubmitAndSubmitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOnSubmitAndSubmitLabel.swift; sourceTree = "<group>"; };
+		610AC04D2B87403E000382AA /* SwiftCustomiseKeyboardSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCustomiseKeyboardSubmit.swift; sourceTree = "<group>"; };
 		612CDDE92B7550C200468577 /* SwiftNavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNavigationViewAndLink.swift; sourceTree = "<group>"; };
 		614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAsyncImage.swift; sourceTree = "<group>"; };
 		614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBackgroundMaterials.swift; sourceTree = "<group>"; };
@@ -248,6 +252,8 @@
 				610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */,
 				610AC0472B872431000382AA /* SwiftBadge.swift */,
 				610AC0492B872616000382AA /* SwiftFocusState.swift */,
+				610AC04B2B873974000382AA /* SwiftOnSubmitAndSubmitLabel.swift */,
+				610AC04D2B87403E000382AA /* SwiftCustomiseKeyboardSubmit.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -356,6 +362,7 @@
 				614F6E7C2B839B70009D5B47 /* SwiftStepper.swift in Sources */,
 				61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */,
 				612CDDEA2B7550C200468577 /* SwiftNavigationViewAndLink.swift in Sources */,
+				610AC04E2B87403E000382AA /* SwiftCustomiseKeyboardSubmit.swift in Sources */,
 				61E453032B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift in Sources */,
 				614196582B86ED3A00A479A2 /* SwiftTextSelection.swift in Sources */,
 				616417C62B84927B00CFC0ED /* SwiftOnAppearAndDisappear.swift in Sources */,
@@ -375,6 +382,7 @@
 				61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */,
 				618063C22B83463A0086D9A9 /* SwiftToggle.swift in Sources */,
 				616417C42B84867400CFC0ED /* SwiftAdaptingDarkMode.swift in Sources */,
+				610AC04C2B873974000382AA /* SwiftOnSubmitAndSubmitLabel.swift in Sources */,
 				61CC0A552B736FF200C4A5FC /* SwiftExtractedFunctions.swift in Sources */,
 				61D673DC2B860A9200F81F83 /* OnboardingView.swift in Sources */,
 				61CC0A572B7384EF00C4A5FC /* SwiftExtractSubViews.swift in Sources */,

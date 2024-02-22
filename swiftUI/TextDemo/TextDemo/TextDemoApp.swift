@@ -18,7 +18,8 @@ struct TextDemoApp: App {
 //            SwiftTenorGif()
 //            SwiftAppStorage()
 //            IntroView()
-            SwiftFocusState()
+//            SwiftFocusState()
+            SwiftCustomiseKeyboardSubmit()
         }
     }
 }
