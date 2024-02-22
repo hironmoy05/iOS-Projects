@@ -13,6 +13,7 @@
 		61067DCA2B7226B800BBAD73 /* SwiftSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61067DC92B7226B800BBAD73 /* SwiftSafeArea.swift */; };
 		610AC0462B8720A3000382AA /* SwiftSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */; };
 		610AC0482B872431000382AA /* SwiftBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC0472B872431000382AA /* SwiftBadge.swift */; };
+		610AC04A2B872616000382AA /* SwiftFocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC0492B872616000382AA /* SwiftFocusState.swift */; };
 		612CDDEA2B7550C200468577 /* SwiftNavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612CDDE92B7550C200468577 /* SwiftNavigationViewAndLink.swift */; };
 		614196542B86DD8E00A479A2 /* SwiftAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */; };
 		614196562B86E72C00A479A2 /* SwiftBackgroundMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */; };
@@ -79,6 +80,7 @@
 		61067DC92B7226B800BBAD73 /* SwiftSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSafeArea.swift; sourceTree = "<group>"; };
 		610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSwipeActions.swift; sourceTree = "<group>"; };
 		610AC0472B872431000382AA /* SwiftBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBadge.swift; sourceTree = "<group>"; };
+		610AC0492B872616000382AA /* SwiftFocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFocusState.swift; sourceTree = "<group>"; };
 		612CDDE92B7550C200468577 /* SwiftNavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNavigationViewAndLink.swift; sourceTree = "<group>"; };
 		614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAsyncImage.swift; sourceTree = "<group>"; };
 		614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBackgroundMaterials.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				614196592B86F3A700A479A2 /* SwiftButtonStyle15.swift */,
 				610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */,
 				610AC0472B872431000382AA /* SwiftBadge.swift */,
+				610AC0492B872616000382AA /* SwiftFocusState.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -356,6 +359,7 @@
 				61E453032B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift in Sources */,
 				614196582B86ED3A00A479A2 /* SwiftTextSelection.swift in Sources */,
 				616417C62B84927B00CFC0ED /* SwiftOnAppearAndDisappear.swift in Sources */,
+				610AC04A2B872616000382AA /* SwiftFocusState.swift in Sources */,
 				61CC0A592B738BE400C4A5FC /* SwiftBinding.swift in Sources */,
 				61D673D92B86081300F81F83 /* IntroView.swift in Sources */,
 				617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */,

@@ -17,7 +17,8 @@ struct TextDemoApp: App {
 //            SwiftBackgroundAndOverlay()
 //            SwiftTenorGif()
 //            SwiftAppStorage()
-            IntroView()
+//            IntroView()
+            SwiftFocusState()
         }
     }
 }
