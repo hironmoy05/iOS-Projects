@@ -12,6 +12,7 @@
 		61067DC82B720E4000BBAD73 /* SwiftLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61067DC72B720E4000BBAD73 /* SwiftLazyVGrid.swift */; };
 		61067DCA2B7226B800BBAD73 /* SwiftSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61067DC92B7226B800BBAD73 /* SwiftSafeArea.swift */; };
 		610AC0462B8720A3000382AA /* SwiftSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */; };
+		610AC0482B872431000382AA /* SwiftBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AC0472B872431000382AA /* SwiftBadge.swift */; };
 		612CDDEA2B7550C200468577 /* SwiftNavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612CDDE92B7550C200468577 /* SwiftNavigationViewAndLink.swift */; };
 		614196542B86DD8E00A479A2 /* SwiftAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */; };
 		614196562B86E72C00A479A2 /* SwiftBackgroundMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */; };
@@ -77,6 +78,7 @@
 		61067DC72B720E4000BBAD73 /* SwiftLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLazyVGrid.swift; sourceTree = "<group>"; };
 		61067DC92B7226B800BBAD73 /* SwiftSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSafeArea.swift; sourceTree = "<group>"; };
 		610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSwipeActions.swift; sourceTree = "<group>"; };
+		610AC0472B872431000382AA /* SwiftBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBadge.swift; sourceTree = "<group>"; };
 		612CDDE92B7550C200468577 /* SwiftNavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNavigationViewAndLink.swift; sourceTree = "<group>"; };
 		614196532B86DD8E00A479A2 /* SwiftAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAsyncImage.swift; sourceTree = "<group>"; };
 		614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBackgroundMaterials.swift; sourceTree = "<group>"; };
@@ -241,10 +243,11 @@
 				614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */,
 				614196572B86ED3A00A479A2 /* SwiftTextSelection.swift */,
 				614196592B86F3A700A479A2 /* SwiftButtonStyle15.swift */,
+				610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */,
+				610AC0472B872431000382AA /* SwiftBadge.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
-				610AC0452B8720A3000382AA /* SwiftSwipeActions.swift */,
 			);
 			path = TextDemo;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				61D673DC2B860A9200F81F83 /* OnboardingView.swift in Sources */,
 				61CC0A572B7384EF00C4A5FC /* SwiftExtractSubViews.swift in Sources */,
 				616417D02B84CD3C00CFC0ED /* SwiftEnvironmentObject.swift in Sources */,
+				610AC0482B872431000382AA /* SwiftBadge.swift in Sources */,
 				615299292B86897500D8C32E /* ProfileView.swift in Sources */,
 				61CB60682B710A8C007D584C /* SwiftInitializers.swift in Sources */,
 				614F6E7E2B83A7AD009D5B47 /* SwiftSlider.swift in Sources */,
