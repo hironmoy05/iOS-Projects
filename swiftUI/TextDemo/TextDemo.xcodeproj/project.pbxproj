@@ -78,6 +78,8 @@
 		61E5B8512B89F14E00656D58 /* SwiftNativePopOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8502B89F14E00656D58 /* SwiftNativePopOver.swift */; };
 		61E5B8532B8A0F1500656D58 /* SwiftAnyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8522B8A0F1500656D58 /* SwiftAnyLayout.swift */; };
 		61E5B8552B8A245700656D58 /* SwiftViewThatFits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8542B8A245700656D58 /* SwiftViewThatFits.swift */; };
+		61E5B8572B8A28CD00656D58 /* SwiftNavigationSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8562B8A28CD00656D58 /* SwiftNavigationSplitView.swift */; };
+		61E5B8592B8A5A4600656D58 /* SwiftGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8582B8A5A4600656D58 /* SwiftGrid.swift */; };
 		61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */; };
 		61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199D2B6E314F008E4BA0 /* ContentView.swift */; };
 		61E619A02B6E3150008E4BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E6199F2B6E3150008E4BA0 /* Assets.xcassets */; };
@@ -157,6 +159,8 @@
 		61E5B8502B89F14E00656D58 /* SwiftNativePopOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNativePopOver.swift; sourceTree = "<group>"; };
 		61E5B8522B8A0F1500656D58 /* SwiftAnyLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnyLayout.swift; sourceTree = "<group>"; };
 		61E5B8542B8A245700656D58 /* SwiftViewThatFits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewThatFits.swift; sourceTree = "<group>"; };
+		61E5B8562B8A28CD00656D58 /* SwiftNavigationSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNavigationSplitView.swift; sourceTree = "<group>"; };
+		61E5B8582B8A5A4600656D58 /* SwiftGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrid.swift; sourceTree = "<group>"; };
 		61E619982B6E314F008E4BA0 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoApp.swift; sourceTree = "<group>"; };
 		61E6199D2B6E314F008E4BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -284,6 +288,8 @@
 				61E5B8502B89F14E00656D58 /* SwiftNativePopOver.swift */,
 				61E5B8522B8A0F1500656D58 /* SwiftAnyLayout.swift */,
 				61E5B8542B8A245700656D58 /* SwiftViewThatFits.swift */,
+				61E5B8562B8A28CD00656D58 /* SwiftNavigationSplitView.swift */,
+				61E5B8582B8A5A4600656D58 /* SwiftGrid.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -409,6 +415,7 @@
 				61D673D92B86081300F81F83 /* IntroView.swift in Sources */,
 				617D17F62B6F5E26002AC374 /* SystemIcons.swift in Sources */,
 				61CB60662B70FBDC007D584C /* SwiftSpacer.swift in Sources */,
+				61E5B8572B8A28CD00656D58 /* SwiftNavigationSplitView.swift in Sources */,
 				61067DC82B720E4000BBAD73 /* SwiftLazyVGrid.swift in Sources */,
 				61CC0A612B73B47200C4A5FC /* SwiftTransition.swift in Sources */,
 				61067DC42B71EEED00BBAD73 /* SwiftForEach.swift in Sources */,
@@ -417,6 +424,7 @@
 				61B54F152B7DEE510088A3EE /* SwiftTextField.swift in Sources */,
 				614F6E7A2B839478009D5B47 /* SwiftDatePicker.swift in Sources */,
 				61B54F132B7DE8630088A3EE /* SwiftContextMenu.swift in Sources */,
+				61E5B8592B8A5A4600656D58 /* SwiftGrid.swift in Sources */,
 				61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */,
 				618063C22B83463A0086D9A9 /* SwiftToggle.swift in Sources */,
 				616417C42B84867400CFC0ED /* SwiftAdaptingDarkMode.swift in Sources */,
