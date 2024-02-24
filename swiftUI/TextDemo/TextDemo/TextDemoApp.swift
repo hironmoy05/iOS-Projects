@@ -20,7 +20,8 @@ struct TextDemoApp: App {
 //            IntroView()
 //            SwiftFocusState()
 //            SwiftCustomiseKeyboardSubmit()
-            SwiftNavigationStack()
+//            SwiftNavigationStack()
+            SwiftNavigationViewAndLink()
         }
     }
 }
