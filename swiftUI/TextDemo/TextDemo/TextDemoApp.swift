@@ -21,7 +21,8 @@ struct TextDemoApp: App {
 //            SwiftFocusState()
 //            SwiftCustomiseKeyboardSubmit()
 //            SwiftNavigationStack()
-            SwiftNavigationViewAndLink()
+//            SwiftNavigationViewAndLink()
+            SwiftAnyLayout()
         }
     }
 }
