@@ -75,6 +75,7 @@
 		61E5B84B2B89E99B00656D58 /* SwiftGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B84A2B89E99B00656D58 /* SwiftGroup.swift */; };
 		61E5B84D2B89EAA700656D58 /* SwiftAnimationUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B84C2B89EAA700656D58 /* SwiftAnimationUpdated.swift */; };
 		61E5B84F2B89F06100656D58 /* SwiftMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B84E2B89F06100656D58 /* SwiftMenu.swift */; };
+		61E5B8512B89F14E00656D58 /* SwiftNativePopOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8502B89F14E00656D58 /* SwiftNativePopOver.swift */; };
 		61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */; };
 		61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199D2B6E314F008E4BA0 /* ContentView.swift */; };
 		61E619A02B6E3150008E4BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E6199F2B6E3150008E4BA0 /* Assets.xcassets */; };
@@ -151,6 +152,7 @@
 		61E5B84A2B89E99B00656D58 /* SwiftGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGroup.swift; sourceTree = "<group>"; };
 		61E5B84C2B89EAA700656D58 /* SwiftAnimationUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationUpdated.swift; sourceTree = "<group>"; };
 		61E5B84E2B89F06100656D58 /* SwiftMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMenu.swift; sourceTree = "<group>"; };
+		61E5B8502B89F14E00656D58 /* SwiftNativePopOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNativePopOver.swift; sourceTree = "<group>"; };
 		61E619982B6E314F008E4BA0 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoApp.swift; sourceTree = "<group>"; };
 		61E6199D2B6E314F008E4BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				61E5B84A2B89E99B00656D58 /* SwiftGroup.swift */,
 				61E5B84C2B89EAA700656D58 /* SwiftAnimationUpdated.swift */,
 				61E5B84E2B89F06100656D58 /* SwiftMenu.swift */,
+				61E5B8502B89F14E00656D58 /* SwiftNativePopOver.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -381,6 +384,7 @@
 				61E5B84D2B89EAA700656D58 /* SwiftAnimationUpdated.swift in Sources */,
 				6152D5542B7D3ACB0033135B /* SwiftActionSheets.swift in Sources */,
 				61CC0A5B2B73901E00C4A5FC /* SwiftConditionalStatement.swift in Sources */,
+				61E5B8512B89F14E00656D58 /* SwiftNativePopOver.swift in Sources */,
 				617D17FC2B6F702E002AC374 /* SwiftFrameImportant.swift in Sources */,
 				614F6E7C2B839B70009D5B47 /* SwiftStepper.swift in Sources */,
 				61E5B84B2B89E99B00656D58 /* SwiftGroup.swift in Sources */,
