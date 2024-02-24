@@ -70,6 +70,7 @@
 		61E453012B74B6440065D356 /* SwiftSheetAndFullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E453002B74B6440065D356 /* SwiftSheetAndFullScreenCover.swift */; };
 		61E453032B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E453022B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift */; };
 		61E5B8452B899C6F00656D58 /* SwiftToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8442B899C6F00656D58 /* SwiftToolbar.swift */; };
+		61E5B8472B89DE5800656D58 /* SwiftResizableSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8462B89DE5800656D58 /* SwiftResizableSheet.swift */; };
 		61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */; };
 		61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199D2B6E314F008E4BA0 /* ContentView.swift */; };
 		61E619A02B6E3150008E4BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E6199F2B6E3150008E4BA0 /* Assets.xcassets */; };
@@ -141,6 +142,7 @@
 		61E453002B74B6440065D356 /* SwiftSheetAndFullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSheetAndFullScreenCover.swift; sourceTree = "<group>"; };
 		61E453022B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSheetTransitionOffsetForPopover.swift; sourceTree = "<group>"; };
 		61E5B8442B899C6F00656D58 /* SwiftToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToolbar.swift; sourceTree = "<group>"; };
+		61E5B8462B89DE5800656D58 /* SwiftResizableSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftResizableSheet.swift; sourceTree = "<group>"; };
 		61E619982B6E314F008E4BA0 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoApp.swift; sourceTree = "<group>"; };
 		61E6199D2B6E314F008E4BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				610AC04D2B87403E000382AA /* SwiftCustomiseKeyboardSubmit.swift */,
 				610AC04F2B874363000382AA /* SwiftNavigationStack.swift */,
 				61E5B8442B899C6F00656D58 /* SwiftToolbar.swift */,
+				61E5B8462B89DE5800656D58 /* SwiftResizableSheet.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -411,6 +414,7 @@
 				61067DCA2B7226B800BBAD73 /* SwiftSafeArea.swift in Sources */,
 				61CC0A512B734EF100C4A5FC /* SwiftButton.swift in Sources */,
 				614B55982B78A8D200BDA15B /* SwiftLists.swift in Sources */,
+				61E5B8472B89DE5800656D58 /* SwiftResizableSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
