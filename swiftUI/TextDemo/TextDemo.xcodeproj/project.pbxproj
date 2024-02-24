@@ -74,6 +74,7 @@
 		61E5B8492B89E61A00656D58 /* SwiftSafeAreaInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B8482B89E61A00656D58 /* SwiftSafeAreaInsets.swift */; };
 		61E5B84B2B89E99B00656D58 /* SwiftGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B84A2B89E99B00656D58 /* SwiftGroup.swift */; };
 		61E5B84D2B89EAA700656D58 /* SwiftAnimationUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B84C2B89EAA700656D58 /* SwiftAnimationUpdated.swift */; };
+		61E5B84F2B89F06100656D58 /* SwiftMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B84E2B89F06100656D58 /* SwiftMenu.swift */; };
 		61E6199C2B6E314F008E4BA0 /* TextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */; };
 		61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6199D2B6E314F008E4BA0 /* ContentView.swift */; };
 		61E619A02B6E3150008E4BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E6199F2B6E3150008E4BA0 /* Assets.xcassets */; };
@@ -149,6 +150,7 @@
 		61E5B8482B89E61A00656D58 /* SwiftSafeAreaInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSafeAreaInsets.swift; sourceTree = "<group>"; };
 		61E5B84A2B89E99B00656D58 /* SwiftGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGroup.swift; sourceTree = "<group>"; };
 		61E5B84C2B89EAA700656D58 /* SwiftAnimationUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationUpdated.swift; sourceTree = "<group>"; };
+		61E5B84E2B89F06100656D58 /* SwiftMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMenu.swift; sourceTree = "<group>"; };
 		61E619982B6E314F008E4BA0 /* TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E6199B2B6E314F008E4BA0 /* TextDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoApp.swift; sourceTree = "<group>"; };
 		61E6199D2B6E314F008E4BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 				61E5B8482B89E61A00656D58 /* SwiftSafeAreaInsets.swift */,
 				61E5B84A2B89E99B00656D58 /* SwiftGroup.swift */,
 				61E5B84C2B89EAA700656D58 /* SwiftAnimationUpdated.swift */,
+				61E5B84E2B89F06100656D58 /* SwiftMenu.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -381,6 +384,7 @@
 				617D17FC2B6F702E002AC374 /* SwiftFrameImportant.swift in Sources */,
 				614F6E7C2B839B70009D5B47 /* SwiftStepper.swift in Sources */,
 				61E5B84B2B89E99B00656D58 /* SwiftGroup.swift in Sources */,
+				61E5B84F2B89F06100656D58 /* SwiftMenu.swift in Sources */,
 				61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */,
 				612CDDEA2B7550C200468577 /* SwiftNavigationViewAndLink.swift in Sources */,
 				610AC04E2B87403E000382AA /* SwiftCustomiseKeyboardSubmit.swift in Sources */,
