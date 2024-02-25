@@ -8,17 +8,26 @@
 import SwiftUI
 
 struct ListView: View {
-    @State var items: [ItemModel] = [
-        ItemModel(title: "This is the first item!", isCompleted: false),
-        ItemModel(title: "This is the first!", isCompleted: true),
-        ItemModel(title: "Third!", isCompleted: false)
-    ]
+    @EnvironmentObject var listViewModel: ListViewModel
 
     var body: some View {
         List {
-            ForEach(items) { item in
+            ForEach(listViewModel.items) { item in
                 ListRowView(item: item)
+                    .onTapGesture {
+                        withAnimation(.linear) {
+                            listViewModel.updateItem(item: item)
+                        }
+                    }
             }
+//            .onDelete(perform: { indexSet in
+//                items.remove(atOffsets: indexSet)
+//            })
+            .onDelete(perform: listViewModel.deleteItem)
+//            .onMove(perform: { indices, newOffset in
+//                moveItem(from: indices, to: newOffset)
+//            })
+            .onMove(perform: listViewModel.moveItem)
         }
         .listStyle(PlainListStyle())
         .navigationTitle("Todo List 📝")
@@ -33,10 +42,8 @@ struct ListView: View {
                 } label: {
                     Text("Add")
                 }
-
             }
         }
-
     }
 }
 
@@ -44,6 +51,7 @@ struct ListView: View {
     NavigationStack {
         ListView()
     }
+    .environmentObject(ListViewModel())
 }
 
 extension Color {
