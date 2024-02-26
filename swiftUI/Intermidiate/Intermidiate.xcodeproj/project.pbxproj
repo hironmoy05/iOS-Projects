@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */; };
 		61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */; };
 		61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2782B8CCFB40077EA76 /* ContentView.swift */; };
 		61D8A27B2B8CCFB50077EA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMagnificationGesture.swift; sourceTree = "<group>"; };
 		61D8A2732B8CCFB40077EA76 /* Intermidiate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intermidiate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermidiateApp.swift; sourceTree = "<group>"; };
 		61D8A2782B8CCFB40077EA76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */,
 				61D8A2782B8CCFB40077EA76 /* ContentView.swift */,
 				61D8A2842B8CD00F0077EA76 /* LongPressGesture.swift */,
+				615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */,
 				61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */,
 				61D8A27C2B8CCFB50077EA76 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */,
+				615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */,
 				61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */,
 				61D8A2852B8CD00F0077EA76 /* LongPressGesture.swift in Sources */,
 			);
