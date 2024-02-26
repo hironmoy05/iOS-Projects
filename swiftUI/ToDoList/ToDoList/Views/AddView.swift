@@ -22,7 +22,7 @@ struct AddView: View {
                 TextField("Type some thing here...", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 55)
-                    .background(Color(hex: "#D3D3D3"))
+                    .background(Color(uiColor: .secondarySystemBackground))
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 
                 Button(action: saveButtonPressed, label: {
@@ -72,4 +72,6 @@ struct AddView: View {
     NavigationStack {
         AddView()
     }
+    .preferredColorScheme(.dark)
+    .environmentObject(ListViewModel())
 }
