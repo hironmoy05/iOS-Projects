@@ -11,25 +11,32 @@ struct ListView: View {
     @EnvironmentObject var listViewModel: ListViewModel
 
     var body: some View {
-        List {
-            ForEach(listViewModel.items) { item in
-                ListRowView(item: item)
-                    .onTapGesture {
-                        withAnimation(.linear) {
-                            listViewModel.updateItem(item: item)
-                        }
+        ZStack {
+            if listViewModel.items.isEmpty {
+                NoItemsView()
+                    .transition(.opacity.animation(.easeIn))
+            } else {
+                List {
+                    ForEach(listViewModel.items) { item in
+                        ListRowView(item: item)
+                            .onTapGesture {
+                                withAnimation(.linear) {
+                                    listViewModel.updateItem(item: item)
+                                }
+                            }
                     }
+                    //            .onDelete(perform: { indexSet in
+                    //                items.remove(atOffsets: indexSet)
+                    //            })
+                    .onDelete(perform: listViewModel.deleteItem)
+                    //            .onMove(perform: { indices, newOffset in
+                    //                moveItem(from: indices, to: newOffset)
+                    //            })
+                    .onMove(perform: listViewModel.moveItem)
+                }
+                .listStyle(PlainListStyle())
             }
-//            .onDelete(perform: { indexSet in
-//                items.remove(atOffsets: indexSet)
-//            })
-            .onDelete(perform: listViewModel.deleteItem)
-//            .onMove(perform: { indices, newOffset in
-//                moveItem(from: indices, to: newOffset)
-//            })
-            .onMove(perform: listViewModel.moveItem)
         }
-        .listStyle(PlainListStyle())
         .navigationTitle("Todo List 📝")
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
