@@ -12,7 +12,8 @@ struct IntermidiateApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            MyMagnificationGesture()
+//            MyMagnificationGesture()
+            MyRotationGesture()
         }
     }
 }
