@@ -13,7 +13,8 @@ struct IntermidiateApp: App {
         WindowGroup {
 //            ContentView()
 //            MyMagnificationGesture()
-            MyRotationGesture()
+//            MyRotationGesture()
+            MyDragGesture()
         }
     }
 }
