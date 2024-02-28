@@ -12,6 +12,7 @@
 		61999EBA2B8EC6670001E1D3 /* MyScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */; };
 		61999EBC2B8ED8F00001E1D3 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBB2B8ED8F00001E1D3 /* MyGeometryReader.swift */; };
 		61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */; };
+		61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */; };
 		61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */; };
 		61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2782B8CCFB40077EA76 /* ContentView.swift */; };
 		61D8A27B2B8CCFB50077EA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewReader.swift; sourceTree = "<group>"; };
 		61999EBB2B8ED8F00001E1D3 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
 		61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
+		61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMask.swift; sourceTree = "<group>"; };
 		61D8A2732B8CCFB40077EA76 /* Intermidiate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intermidiate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermidiateApp.swift; sourceTree = "<group>"; };
 		61D8A2782B8CCFB40077EA76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */,
 				61999EBB2B8ED8F00001E1D3 /* MyGeometryReader.swift */,
 				61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */,
+				61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */,
 				61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */,
 				61D8A27C2B8CCFB50077EA76 /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */,
+				61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */,
 				615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */,
 				61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */,
 				61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */,
