@@ -10,6 +10,7 @@
 		6149161C2B902B630073A4DE /* MySounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149161B2B902B630073A4DE /* MySounds.swift */; };
 		614916202B902DE50073A4DE /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6149161E2B902DE50073A4DE /* tada.mp3 */; };
 		614916212B902DE50073A4DE /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6149161F2B902DE50073A4DE /* badum.mp3 */; };
+		614916232B90305B0073A4DE /* MyHaptics:Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614916222B90305B0073A4DE /* MyHaptics:Vibration.swift */; };
 		615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */; };
 		615CF8FC2B8D0F5B00412066 /* MyRotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8FB2B8D0F5B00412066 /* MyRotationGesture.swift */; };
 		61999EBA2B8EC6670001E1D3 /* MyScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */; };
@@ -29,6 +30,7 @@
 		6149161B2B902B630073A4DE /* MySounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySounds.swift; sourceTree = "<group>"; };
 		6149161E2B902DE50073A4DE /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		6149161F2B902DE50073A4DE /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		614916222B90305B0073A4DE /* MyHaptics:Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyHaptics:Vibration.swift"; sourceTree = "<group>"; };
 		615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMagnificationGesture.swift; sourceTree = "<group>"; };
 		615CF8FB2B8D0F5B00412066 /* MyRotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRotationGesture.swift; sourceTree = "<group>"; };
 		61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewReader.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */,
 				61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */,
 				6149161B2B902B630073A4DE /* MySounds.swift */,
+				614916222B90305B0073A4DE /* MyHaptics:Vibration.swift */,
 				6149161D2B902DC50073A4DE /* Sounds */,
 				61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */,
 				61D8A27C2B8CCFB50077EA76 /* Preview Content */,
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614916232B90305B0073A4DE /* MyHaptics:Vibration.swift in Sources */,
 				61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */,
 				61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */,
 				615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */,
