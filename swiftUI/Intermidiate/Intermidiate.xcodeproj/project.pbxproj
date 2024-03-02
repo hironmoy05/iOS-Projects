@@ -14,6 +14,7 @@
 		614916232B90305B0073A4DE /* MyHapticsVibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614916222B90305B0073A4DE /* MyHapticsVibration.swift */; };
 		615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */; };
 		615CF8FC2B8D0F5B00412066 /* MyRotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8FB2B8D0F5B00412066 /* MyRotationGesture.swift */; };
+		6187B6382B931F5A0059AD05 /* MyHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B6372B931F5A0059AD05 /* MyHashable.swift */; };
 		61999EBA2B8EC6670001E1D3 /* MyScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */; };
 		61999EBC2B8ED8F00001E1D3 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBB2B8ED8F00001E1D3 /* MyGeometryReader.swift */; };
 		61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */; };
@@ -35,6 +36,7 @@
 		614916222B90305B0073A4DE /* MyHapticsVibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHapticsVibration.swift; sourceTree = "<group>"; };
 		615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMagnificationGesture.swift; sourceTree = "<group>"; };
 		615CF8FB2B8D0F5B00412066 /* MyRotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRotationGesture.swift; sourceTree = "<group>"; };
+		6187B6372B931F5A0059AD05 /* MyHashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashable.swift; sourceTree = "<group>"; };
 		61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewReader.swift; sourceTree = "<group>"; };
 		61999EBB2B8ED8F00001E1D3 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
 		61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				6149161B2B902B630073A4DE /* MySounds.swift */,
 				614916222B90305B0073A4DE /* MyHapticsVibration.swift */,
 				6110950D2B91727500895727 /* MyLocalNotification.swift */,
+				6187B6372B931F5A0059AD05 /* MyHashable.swift */,
 				6149161D2B902DC50073A4DE /* Sounds */,
 				61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */,
 				61D8A27C2B8CCFB50077EA76 /* Preview Content */,
@@ -194,6 +197,7 @@
 				61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */,
 				615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */,
 				6149161C2B902B630073A4DE /* MySounds.swift in Sources */,
+				6187B6382B931F5A0059AD05 /* MyHashable.swift in Sources */,
 				61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */,
 				61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */,
 				61D8A2852B8CD00F0077EA76 /* LongPressGesture.swift in Sources */,
