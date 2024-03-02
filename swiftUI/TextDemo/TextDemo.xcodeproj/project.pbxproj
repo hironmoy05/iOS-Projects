@@ -22,6 +22,7 @@
 		614196562B86E72C00A479A2 /* SwiftBackgroundMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */; };
 		614196582B86ED3A00A479A2 /* SwiftTextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196572B86ED3A00A479A2 /* SwiftTextSelection.swift */; };
 		6141965A2B86F3A700A479A2 /* SwiftButtonStyle15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614196592B86F3A700A479A2 /* SwiftButtonStyle15.swift */; };
+		614916252B9064580073A4DE /* SwiftCustomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614916242B9064580073A4DE /* SwiftCustomMenu.swift */; };
 		614B55982B78A8D200BDA15B /* SwiftLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B55972B78A8D200BDA15B /* SwiftLists.swift */; };
 		614B559A2B7908BA00BDA15B /* SwiftAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B55992B7908BA00BDA15B /* SwiftAlerts.swift */; };
 		614F6E782B83904C009D5B47 /* SwiftColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6E772B83904C009D5B47 /* SwiftColorPicker.swift */; };
@@ -104,6 +105,7 @@
 		614196552B86E72C00A479A2 /* SwiftBackgroundMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBackgroundMaterials.swift; sourceTree = "<group>"; };
 		614196572B86ED3A00A479A2 /* SwiftTextSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTextSelection.swift; sourceTree = "<group>"; };
 		614196592B86F3A700A479A2 /* SwiftButtonStyle15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftButtonStyle15.swift; sourceTree = "<group>"; };
+		614916242B9064580073A4DE /* SwiftCustomMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCustomMenu.swift; sourceTree = "<group>"; };
 		614B55972B78A8D200BDA15B /* SwiftLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLists.swift; sourceTree = "<group>"; };
 		614B55992B7908BA00BDA15B /* SwiftAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlerts.swift; sourceTree = "<group>"; };
 		614F6E772B83904C009D5B47 /* SwiftColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftColorPicker.swift; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 				61E5B8562B8A28CD00656D58 /* SwiftNavigationSplitView.swift */,
 				61E5B8582B8A5A4600656D58 /* SwiftGrid.swift */,
 				61E5B85A2B8A6E5000656D58 /* SwiftContentUnavailableView.swift */,
+				614916242B9064580073A4DE /* SwiftCustomMenu.swift */,
 				6199BC4A2B7F47C200912984 /* SwiftTenorGif */,
 				61E6199F2B6E3150008E4BA0 /* Assets.xcassets */,
 				61E619A12B6E3150008E4BA0 /* Preview Content */,
@@ -407,6 +410,7 @@
 				61E5B84F2B89F06100656D58 /* SwiftMenu.swift in Sources */,
 				61E6199E2B6E314F008E4BA0 /* ContentView.swift in Sources */,
 				612CDDEA2B7550C200468577 /* SwiftNavigationViewAndLink.swift in Sources */,
+				614916252B9064580073A4DE /* SwiftCustomMenu.swift in Sources */,
 				610AC04E2B87403E000382AA /* SwiftCustomiseKeyboardSubmit.swift in Sources */,
 				61E453032B74C5420065D356 /* SwiftSheetTransitionOffsetForPopover.swift in Sources */,
 				61E5B8532B8A0F1500656D58 /* SwiftAnyLayout.swift in Sources */,

@@ -22,7 +22,7 @@ struct TextDemoApp: App {
 //            SwiftCustomiseKeyboardSubmit()
 //            SwiftNavigationStack()
 //            SwiftNavigationViewAndLink()
-            SwiftAnyLayout()
+            SwiftCustomMenu()
         }
     }
 }

@@ -21,7 +21,7 @@ class HapticManager {
     }
 }
 
-struct MyHaptics_Vibration: View {
+struct MyHapticsVibration: View {
     var body: some View {
         VStack(spacing: 20) {
             Button("success") { HapticManager.instance.notification(type: .success) }
@@ -40,5 +40,5 @@ struct MyHaptics_Vibration: View {
 }
 
 #Preview {
-    MyHaptics_Vibration()
+    MyHapticsVibration()
 }
