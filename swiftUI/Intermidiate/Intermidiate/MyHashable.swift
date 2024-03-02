@@ -11,6 +11,7 @@ struct MyCustomModel: Hashable {
     let title: String
     
     func hash(into hasher: inout Hasher) {
+        // let suppose if we have same title it gives us same hash value, so we can add multiple value to create a unique hash like 'hasher.combine(title + subTitle)
         hasher.combine(title)
     }
 }
