@@ -15,7 +15,8 @@ struct IntermidiateApp: App {
 //            MyMagnificationGesture()
 //            MyRotationGesture()
 //            MyDragGesture()
-            MyLocalNotification()
+//            MyLocalNotification()
+            MyCoreData()
         }
     }
 }
