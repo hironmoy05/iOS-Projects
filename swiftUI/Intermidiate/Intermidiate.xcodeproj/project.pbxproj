@@ -18,10 +18,12 @@
 		6187B63A2B93585C0059AD05 /* MySortFilterAndMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */; };
 		6187B65B2B93B20B0059AD05 /* MyCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B65A2B93B20B0059AD05 /* MyCoreData.swift */; };
 		6187B65E2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */; };
+		6187B6602B93C3410059AD05 /* MyCoreDataRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B65F2B93C3410059AD05 /* MyCoreDataRelationship.swift */; };
 		61999EBA2B8EC6670001E1D3 /* MyScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */; };
 		61999EBC2B8ED8F00001E1D3 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBB2B8ED8F00001E1D3 /* MyGeometryReader.swift */; };
 		61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */; };
 		61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */; };
+		61C5D1BE2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */; };
 		61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */; };
 		61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2782B8CCFB40077EA76 /* ContentView.swift */; };
 		61D8A27B2B8CCFB50077EA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */; };
@@ -43,10 +45,12 @@
 		6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySortFilterAndMap.swift; sourceTree = "<group>"; };
 		6187B65A2B93B20B0059AD05 /* MyCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoreData.swift; sourceTree = "<group>"; };
 		6187B65D2B93B32F0059AD05 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		6187B65F2B93C3410059AD05 /* MyCoreDataRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoreDataRelationship.swift; sourceTree = "<group>"; };
 		61999EB92B8EC6670001E1D3 /* MyScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewReader.swift; sourceTree = "<group>"; };
 		61999EBB2B8ED8F00001E1D3 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
 		61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMask.swift; sourceTree = "<group>"; };
+		61C5D1BD2B944A7D00BB2285 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		61D8A2732B8CCFB40077EA76 /* Intermidiate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intermidiate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermidiateApp.swift; sourceTree = "<group>"; };
 		61D8A2782B8CCFB40077EA76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				6187B6372B931F5A0059AD05 /* MyHashable.swift */,
 				6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */,
 				6187B65A2B93B20B0059AD05 /* MyCoreData.swift */,
+				6187B65F2B93C3410059AD05 /* MyCoreDataRelationship.swift */,
+				61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */,
 				6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */,
 				6149161D2B902DC50073A4DE /* Sounds */,
 				61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */,
@@ -209,12 +215,14 @@
 				615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */,
 				6149161C2B902B630073A4DE /* MySounds.swift in Sources */,
 				6187B6382B931F5A0059AD05 /* MyHashable.swift in Sources */,
+				61C5D1BE2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld in Sources */,
 				61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */,
 				61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */,
 				6187B63A2B93585C0059AD05 /* MySortFilterAndMap.swift in Sources */,
 				61D8A2852B8CD00F0077EA76 /* LongPressGesture.swift in Sources */,
 				61FAF1812B8DB06E00443BBA /* MyDragGesture2.swift in Sources */,
 				615CF8FC2B8D0F5B00412066 /* MyRotationGesture.swift in Sources */,
+				6187B6602B93C3410059AD05 /* MyCoreDataRelationship.swift in Sources */,
 				6110950E2B91727500895727 /* MyLocalNotification.swift in Sources */,
 				61999EBC2B8ED8F00001E1D3 /* MyGeometryReader.swift in Sources */,
 				61999EBA2B8EC6670001E1D3 /* MyScrollViewReader.swift in Sources */,
@@ -433,6 +441,16 @@
 			);
 			currentVersion = 6187B65D2B93B32F0059AD05 /* FruitsContainer.xcdatamodel */;
 			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61C5D1BD2B944A7D00BB2285 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 61C5D1BD2B944A7D00BB2285 /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
