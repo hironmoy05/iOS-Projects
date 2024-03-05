@@ -24,6 +24,7 @@
 		61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */; };
 		61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */; };
 		61C5D1BE2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */; };
+		61D67C852B96BA700002D0D0 /* MyBackgroundThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D67C842B96BA700002D0D0 /* MyBackgroundThread.swift */; };
 		61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */; };
 		61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2782B8CCFB40077EA76 /* ContentView.swift */; };
 		61D8A27B2B8CCFB50077EA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		61999EBD2B8EDEA30001E1D3 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMask.swift; sourceTree = "<group>"; };
 		61C5D1BD2B944A7D00BB2285 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		61D67C842B96BA700002D0D0 /* MyBackgroundThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBackgroundThread.swift; sourceTree = "<group>"; };
 		61D8A2732B8CCFB40077EA76 /* Intermidiate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intermidiate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermidiateApp.swift; sourceTree = "<group>"; };
 		61D8A2782B8CCFB40077EA76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */,
 				6187B65A2B93B20B0059AD05 /* MyCoreData.swift */,
 				6187B65F2B93C3410059AD05 /* MyCoreDataRelationship.swift */,
+				61D67C842B96BA700002D0D0 /* MyBackgroundThread.swift */,
 				61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */,
 				6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */,
 				6149161D2B902DC50073A4DE /* Sounds */,
@@ -224,6 +227,7 @@
 				615CF8FC2B8D0F5B00412066 /* MyRotationGesture.swift in Sources */,
 				6187B6602B93C3410059AD05 /* MyCoreDataRelationship.swift in Sources */,
 				6110950E2B91727500895727 /* MyLocalNotification.swift in Sources */,
+				61D67C852B96BA700002D0D0 /* MyBackgroundThread.swift in Sources */,
 				61999EBC2B8ED8F00001E1D3 /* MyGeometryReader.swift in Sources */,
 				61999EBA2B8EC6670001E1D3 /* MyScrollViewReader.swift in Sources */,
 				61FAF17F2B8D893100443BBA /* MyDragGesture.swift in Sources */,

@@ -17,7 +17,8 @@ struct IntermidiateApp: App {
 //            MyDragGesture()
 //            MyLocalNotification()
 //            MyCoreData()
-            MyCoreDataRelationship()
+//            MyCoreDataRelationship()
+            MyBackgroundThread()
         }
     }
 }
