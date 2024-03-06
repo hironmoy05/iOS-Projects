@@ -18,7 +18,8 @@ struct IntermidiateApp: App {
 //            MyLocalNotification()
 //            MyCoreData()
 //            MyCoreDataRelationship()
-            MyBackgroundThread()
+//            MyBackgroundThread()
+            MyWeakSelf()
         }
     }
 }
