@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6100AB132B980F5B0018008B /* MyWeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6100AB122B980F5B0018008B /* MyWeakSelf.swift */; };
+		6105F70F2B98F6AC00CB6F30 /* MyTypeAliase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105F70E2B98F6AC00CB6F30 /* MyTypeAliase.swift */; };
 		6110950E2B91727500895727 /* MyLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6110950D2B91727500895727 /* MyLocalNotification.swift */; };
 		6149161C2B902B630073A4DE /* MySounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149161B2B902B630073A4DE /* MySounds.swift */; };
 		614916202B902DE50073A4DE /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6149161E2B902DE50073A4DE /* tada.mp3 */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		6100AB122B980F5B0018008B /* MyWeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeakSelf.swift; sourceTree = "<group>"; };
+		6105F70E2B98F6AC00CB6F30 /* MyTypeAliase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTypeAliase.swift; sourceTree = "<group>"; };
 		6110950D2B91727500895727 /* MyLocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocalNotification.swift; sourceTree = "<group>"; };
 		6149161B2B902B630073A4DE /* MySounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySounds.swift; sourceTree = "<group>"; };
 		6149161E2B902DE50073A4DE /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				6187B65F2B93C3410059AD05 /* MyCoreDataRelationship.swift */,
 				61D67C842B96BA700002D0D0 /* MyBackgroundThread.swift */,
 				6100AB122B980F5B0018008B /* MyWeakSelf.swift */,
+				6105F70E2B98F6AC00CB6F30 /* MyTypeAliase.swift */,
 				61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */,
 				6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */,
 				6149161D2B902DC50073A4DE /* Sounds */,
@@ -217,6 +220,7 @@
 				614916232B90305B0073A4DE /* MyHapticsVibration.swift in Sources */,
 				6187B65B2B93B20B0059AD05 /* MyCoreData.swift in Sources */,
 				61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */,
+				6105F70F2B98F6AC00CB6F30 /* MyTypeAliase.swift in Sources */,
 				61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */,
 				615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */,
 				6149161C2B902B630073A4DE /* MySounds.swift in Sources */,
