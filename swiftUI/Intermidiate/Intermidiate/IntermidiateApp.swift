@@ -21,7 +21,8 @@ struct IntermidiateApp: App {
 //            MyBackgroundThread()
 //            MyWeakSelf()
 //            MyCodable()
-            MyDownloadWithEscaping()
+//            MyDownloadWithEscaping()
+            MyDownloadWithCombine()
         }
     }
 }

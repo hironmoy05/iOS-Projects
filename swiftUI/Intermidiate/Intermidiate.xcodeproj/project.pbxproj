@@ -28,6 +28,7 @@
 		61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */; };
 		61C5D1BE2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */; };
 		61D5B08B2BA5DBCA000CD376 /* MyDownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D5B08A2BA5DBCA000CD376 /* MyDownloadWithEscaping.swift */; };
+		61D5B08D2BA60002000CD376 /* MyDownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D5B08C2BA60002000CD376 /* MyDownloadWithCombine.swift */; };
 		61D67C852B96BA700002D0D0 /* MyBackgroundThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D67C842B96BA700002D0D0 /* MyBackgroundThread.swift */; };
 		61D7136C2B9A25F6007DCC76 /* MyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D7136B2B9A25F6007DCC76 /* MyCodable.swift */; };
 		61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2762B8CCFB40077EA76 /* IntermidiateApp.swift */; };
@@ -61,6 +62,7 @@
 		61999EBF2B8EE7BB0001E1D3 /* MyMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMask.swift; sourceTree = "<group>"; };
 		61C5D1BD2B944A7D00BB2285 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		61D5B08A2BA5DBCA000CD376 /* MyDownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDownloadWithEscaping.swift; sourceTree = "<group>"; };
+		61D5B08C2BA60002000CD376 /* MyDownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDownloadWithCombine.swift; sourceTree = "<group>"; };
 		61D67C842B96BA700002D0D0 /* MyBackgroundThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBackgroundThread.swift; sourceTree = "<group>"; };
 		61D7136B2B9A25F6007DCC76 /* MyCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCodable.swift; sourceTree = "<group>"; };
 		61D8A2732B8CCFB40077EA76 /* Intermidiate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intermidiate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 				6105F7102B98F95700CB6F30 /* MyEscapingClosures.swift */,
 				61D7136B2B9A25F6007DCC76 /* MyCodable.swift */,
 				61D5B08A2BA5DBCA000CD376 /* MyDownloadWithEscaping.swift */,
+				61D5B08C2BA60002000CD376 /* MyDownloadWithCombine.swift */,
 				61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */,
 				6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */,
 				6149161D2B902DC50073A4DE /* Sounds */,
@@ -239,6 +242,7 @@
 				61C5D1BE2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld in Sources */,
 				61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */,
 				61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */,
+				61D5B08D2BA60002000CD376 /* MyDownloadWithCombine.swift in Sources */,
 				6187B63A2B93585C0059AD05 /* MySortFilterAndMap.swift in Sources */,
 				61D8A2852B8CD00F0077EA76 /* LongPressGesture.swift in Sources */,
 				61FAF1812B8DB06E00443BBA /* MyDragGesture2.swift in Sources */,
