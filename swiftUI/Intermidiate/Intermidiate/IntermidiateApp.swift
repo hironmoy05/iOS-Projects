@@ -19,7 +19,9 @@ struct IntermidiateApp: App {
 //            MyCoreData()
 //            MyCoreDataRelationship()
 //            MyBackgroundThread()
-            MyWeakSelf()
+//            MyWeakSelf()
+//            MyCodable()
+            MyDownloadWithEscaping()
         }
     }
 }
