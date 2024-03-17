@@ -17,6 +17,7 @@
 		614916232B90305B0073A4DE /* MyHapticsVibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614916222B90305B0073A4DE /* MyHapticsVibration.swift */; };
 		615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */; };
 		615CF8FC2B8D0F5B00412066 /* MyRotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8FB2B8D0F5B00412066 /* MyRotationGesture.swift */; };
+		616EF3A52BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */; };
 		6187B6382B931F5A0059AD05 /* MyHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B6372B931F5A0059AD05 /* MyHashable.swift */; };
 		6187B63A2B93585C0059AD05 /* MySortFilterAndMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */; };
 		6187B65B2B93B20B0059AD05 /* MyCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B65A2B93B20B0059AD05 /* MyCoreData.swift */; };
@@ -51,6 +52,7 @@
 		614916222B90305B0073A4DE /* MyHapticsVibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHapticsVibration.swift; sourceTree = "<group>"; };
 		615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMagnificationGesture.swift; sourceTree = "<group>"; };
 		615CF8FB2B8D0F5B00412066 /* MyRotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRotationGesture.swift; sourceTree = "<group>"; };
+		616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWrappingUIViewInSwiftUIWithCoordinator.swift; sourceTree = "<group>"; };
 		6187B6372B931F5A0059AD05 /* MyHashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashable.swift; sourceTree = "<group>"; };
 		6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySortFilterAndMap.swift; sourceTree = "<group>"; };
 		6187B65A2B93B20B0059AD05 /* MyCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoreData.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				61D7136B2B9A25F6007DCC76 /* MyCodable.swift */,
 				61D5B08A2BA5DBCA000CD376 /* MyDownloadWithEscaping.swift */,
 				61D5B08C2BA60002000CD376 /* MyDownloadWithCombine.swift */,
+				616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */,
 				61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */,
 				6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */,
 				6149161D2B902DC50073A4DE /* Sounds */,
@@ -247,6 +250,7 @@
 				61D8A2852B8CD00F0077EA76 /* LongPressGesture.swift in Sources */,
 				61FAF1812B8DB06E00443BBA /* MyDragGesture2.swift in Sources */,
 				615CF8FC2B8D0F5B00412066 /* MyRotationGesture.swift in Sources */,
+				616EF3A52BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift in Sources */,
 				6187B6602B93C3410059AD05 /* MyCoreDataRelationship.swift in Sources */,
 				6110950E2B91727500895727 /* MyLocalNotification.swift in Sources */,
 				61D67C852B96BA700002D0D0 /* MyBackgroundThread.swift in Sources */,
