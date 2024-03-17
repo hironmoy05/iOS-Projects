@@ -18,6 +18,7 @@
 		615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */; };
 		615CF8FC2B8D0F5B00412066 /* MyRotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615CF8FB2B8D0F5B00412066 /* MyRotationGesture.swift */; };
 		616EF3A52BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */; };
+		616EF3A82BA6DAEA0079AD53 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616EF3A72BA6DAEA0079AD53 /* ImageSaver.swift */; };
 		6187B6382B931F5A0059AD05 /* MyHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B6372B931F5A0059AD05 /* MyHashable.swift */; };
 		6187B63A2B93585C0059AD05 /* MySortFilterAndMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */; };
 		6187B65B2B93B20B0059AD05 /* MyCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B65A2B93B20B0059AD05 /* MyCoreData.swift */; };
@@ -53,6 +54,7 @@
 		615CF8F92B8D067B00412066 /* MyMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMagnificationGesture.swift; sourceTree = "<group>"; };
 		615CF8FB2B8D0F5B00412066 /* MyRotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRotationGesture.swift; sourceTree = "<group>"; };
 		616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWrappingUIViewInSwiftUIWithCoordinator.swift; sourceTree = "<group>"; };
+		616EF3A72BA6DAEA0079AD53 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		6187B6372B931F5A0059AD05 /* MyHashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashable.swift; sourceTree = "<group>"; };
 		6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySortFilterAndMap.swift; sourceTree = "<group>"; };
 		6187B65A2B93B20B0059AD05 /* MyCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoreData.swift; sourceTree = "<group>"; };
@@ -95,6 +97,15 @@
 				6149161E2B902DE50073A4DE /* tada.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		616EF3A62BA6DA750079AD53 /* UIViewControllerCoordinatorImageSave */ = {
+			isa = PBXGroup;
+			children = (
+				616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */,
+				616EF3A72BA6DAEA0079AD53 /* ImageSaver.swift */,
+			);
+			path = UIViewControllerCoordinatorImageSave;
 			sourceTree = "<group>";
 		};
 		61D8A26A2B8CCFB40077EA76 = {
@@ -141,7 +152,7 @@
 				61D7136B2B9A25F6007DCC76 /* MyCodable.swift */,
 				61D5B08A2BA5DBCA000CD376 /* MyDownloadWithEscaping.swift */,
 				61D5B08C2BA60002000CD376 /* MyDownloadWithCombine.swift */,
-				616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */,
+				616EF3A62BA6DA750079AD53 /* UIViewControllerCoordinatorImageSave */,
 				61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */,
 				6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */,
 				6149161D2B902DC50073A4DE /* Sounds */,
@@ -243,6 +254,7 @@
 				6149161C2B902B630073A4DE /* MySounds.swift in Sources */,
 				6187B6382B931F5A0059AD05 /* MyHashable.swift in Sources */,
 				61C5D1BE2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld in Sources */,
+				616EF3A82BA6DAEA0079AD53 /* ImageSaver.swift in Sources */,
 				61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */,
 				61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */,
 				61D5B08D2BA60002000CD376 /* MyDownloadWithCombine.swift in Sources */,
@@ -395,6 +407,7 @@
 				DEVELOPMENT_TEAM = BT9N2LKBZ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,6 +437,7 @@
 				DEVELOPMENT_TEAM = BT9N2LKBZ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

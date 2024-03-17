@@ -20,6 +20,13 @@ struct ContentView: View {
             Button("Select Image") {
                 showingImagePicker.toggle()
             }
+            
+            Button("Image Save") {
+                guard let inputImage else { return }
+                
+                let imageSaver = ImageSaver()
+                imageSaver.writeToPhotoAlbum(image: inputImage)
+            }
         }
         .sheet(isPresented: $showingImagePicker) {
             MyWrappingUIViewInSwiftUIWithCoordinator(image: $inputImage)
@@ -30,6 +37,8 @@ struct ContentView: View {
     func loadImage() {
         guard let inputImage else { return }
         image = Image(uiImage: inputImage)
+        
+//        UIImageWriteToSavedPhotosAlbum(inputImage, nil, nil, nil) // Instead of this we better do this with class 'ImageSaveer' class. This we're using above in button action where we called this class
     }
 }
 
