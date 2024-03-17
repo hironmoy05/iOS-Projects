@@ -11,7 +11,7 @@ import SwiftUI
 struct IntermidiateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
 //            MyMagnificationGesture()
 //            MyRotationGesture()
 //            MyDragGesture()
@@ -23,6 +23,7 @@ struct IntermidiateApp: App {
 //            MyCodable()
 //            MyDownloadWithEscaping()
 //            MyDownloadWithCombine()
+            MyTimer()
         }
     }
 }
