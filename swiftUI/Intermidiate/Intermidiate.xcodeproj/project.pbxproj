@@ -20,6 +20,7 @@
 		616EF3A52BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */; };
 		616EF3A82BA6DAEA0079AD53 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616EF3A72BA6DAEA0079AD53 /* ImageSaver.swift */; };
 		616EF3AA2BA722A10079AD53 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616EF3A92BA722A10079AD53 /* MyTimer.swift */; };
+		616EF3AC2BA767710079AD53 /* MyPublisherAndSubscriberInCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616EF3AB2BA767710079AD53 /* MyPublisherAndSubscriberInCombine.swift */; };
 		6187B6382B931F5A0059AD05 /* MyHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B6372B931F5A0059AD05 /* MyHashable.swift */; };
 		6187B63A2B93585C0059AD05 /* MySortFilterAndMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */; };
 		6187B65B2B93B20B0059AD05 /* MyCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187B65A2B93B20B0059AD05 /* MyCoreData.swift */; };
@@ -57,6 +58,7 @@
 		616EF3A42BA699BF0079AD53 /* MyWrappingUIViewInSwiftUIWithCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWrappingUIViewInSwiftUIWithCoordinator.swift; sourceTree = "<group>"; };
 		616EF3A72BA6DAEA0079AD53 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		616EF3A92BA722A10079AD53 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+		616EF3AB2BA767710079AD53 /* MyPublisherAndSubscriberInCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPublisherAndSubscriberInCombine.swift; sourceTree = "<group>"; };
 		6187B6372B931F5A0059AD05 /* MyHashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashable.swift; sourceTree = "<group>"; };
 		6187B6392B93585C0059AD05 /* MySortFilterAndMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySortFilterAndMap.swift; sourceTree = "<group>"; };
 		6187B65A2B93B20B0059AD05 /* MyCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoreData.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				61D5B08A2BA5DBCA000CD376 /* MyDownloadWithEscaping.swift */,
 				61D5B08C2BA60002000CD376 /* MyDownloadWithCombine.swift */,
 				616EF3A92BA722A10079AD53 /* MyTimer.swift */,
+				616EF3AB2BA767710079AD53 /* MyPublisherAndSubscriberInCombine.swift */,
 				616EF3A62BA6DA750079AD53 /* UIViewControllerCoordinatorImageSave */,
 				61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */,
 				6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */,
@@ -261,6 +264,7 @@
 				61D8A2772B8CCFB40077EA76 /* IntermidiateApp.swift in Sources */,
 				61999EBE2B8EDEA30001E1D3 /* MultipleSheets.swift in Sources */,
 				61D5B08D2BA60002000CD376 /* MyDownloadWithCombine.swift in Sources */,
+				616EF3AC2BA767710079AD53 /* MyPublisherAndSubscriberInCombine.swift in Sources */,
 				6187B63A2B93585C0059AD05 /* MySortFilterAndMap.swift in Sources */,
 				61D8A2852B8CD00F0077EA76 /* LongPressGesture.swift in Sources */,
 				61FAF1812B8DB06E00443BBA /* MyDragGesture2.swift in Sources */,
