@@ -23,7 +23,8 @@ struct IntermidiateApp: App {
 //            MyCodable()
 //            MyDownloadWithEscaping()
 //            MyDownloadWithCombine()
-            MyTimer()
+//            MyTimer()
+            MyFileManager()
         }
     }
 }
