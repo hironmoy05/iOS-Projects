@@ -41,6 +41,7 @@
 		61D8A27B2B8CCFB50077EA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */; };
 		61D8A27E2B8CCFB50077EA76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D8A27D2B8CCFB50077EA76 /* Preview Assets.xcassets */; };
 		61D8A2852B8CD00F0077EA76 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A2842B8CD00F0077EA76 /* LongPressGesture.swift */; };
+		61F1F85A2BABBA910045FBF3 /* MyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F1F8592BABBA910045FBF3 /* MyCache.swift */; };
 		61FAF17F2B8D893100443BBA /* MyDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FAF17E2B8D893100443BBA /* MyDragGesture.swift */; };
 		61FAF1812B8DB06E00443BBA /* MyDragGesture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FAF1802B8DB06E00443BBA /* MyDragGesture2.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		61D8A27A2B8CCFB50077EA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61D8A27D2B8CCFB50077EA76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61D8A2842B8CD00F0077EA76 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		61F1F8592BABBA910045FBF3 /* MyCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCache.swift; sourceTree = "<group>"; };
 		61FAF17E2B8D893100443BBA /* MyDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDragGesture.swift; sourceTree = "<group>"; };
 		61FAF1802B8DB06E00443BBA /* MyDragGesture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDragGesture2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +163,7 @@
 				616EF3A92BA722A10079AD53 /* MyTimer.swift */,
 				616EF3AB2BA767710079AD53 /* MyPublisherAndSubscriberInCombine.swift */,
 				61B262E92BAA0D1800015DB5 /* MyFileManager.swift */,
+				61F1F8592BABBA910045FBF3 /* MyCache.swift */,
 				616EF3A62BA6DA750079AD53 /* UIViewControllerCoordinatorImageSave */,
 				61C5D1BC2B944A7D00BB2285 /* CoreDataContainer.xcdatamodeld */,
 				6187B65C2B93B32F0059AD05 /* FruitsContainer.xcdatamodeld */,
@@ -258,6 +261,7 @@
 				61D8A2792B8CCFB40077EA76 /* ContentView.swift in Sources */,
 				6105F70F2B98F6AC00CB6F30 /* MyTypeAliase.swift in Sources */,
 				61999EC02B8EE7BB0001E1D3 /* MyMask.swift in Sources */,
+				61F1F85A2BABBA910045FBF3 /* MyCache.swift in Sources */,
 				61D5B08B2BA5DBCA000CD376 /* MyDownloadWithEscaping.swift in Sources */,
 				615CF8FA2B8D067B00412066 /* MyMagnificationGesture.swift in Sources */,
 				6149161C2B902B630073A4DE /* MySounds.swift in Sources */,

@@ -6,16 +6,19 @@
 //
 
 import SwiftUI
+import GiphyUISDK
 
 struct ContentView: View {
+    @State private var showingDialog = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Button("Show Giphy Dialog") {
+            showingDialog.toggle()
         }
         .padding()
+        .sheet(isPresented: $showingDialog, content: {
+            GiphyPicker()
+        })
     }
 }
 

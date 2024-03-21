@@ -11,7 +11,7 @@ class LocalFileManager {
     static let instance = LocalFileManager()
     let folderName = "MyApp_Images"
     
-    init() {
+    private init() {
         createFolderIfNeeded()
     }
     
@@ -51,7 +51,7 @@ class LocalFileManager {
             try FileManager.default.removeItem(atPath: path)
             print("Success deleting folder")
         } catch let error {
-            print("Error deleting folder")
+            print("Error deleting folder \(error)")
         }
     }
     
